@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kvwMgpD0twAn0iBAZb+sqclO5vL4IpaHobjhLduN7go=",
+  "Hash": "FL8podQAWGYAVbv5Mwbh455pq7qu3kQLLLbJPA40W1A=",
   "Source": "CodeSavvyAsp",
   "BasePath": "_content/CodeSavvyAsp",
   "Mode": "Default",
@@ -99,6 +99,783 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\1-removebg-preview.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/1-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b981cjrmf3",
+      "Integrity": "8Te29wvWKgaQICEnsVD2s4iJs2ukKRo2PGWA8pP/mW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\6collage.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/6collage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s7ipbi53ke",
+      "Integrity": "iFQSHEqAsE+cBhyUbinOYlVHZTTg6+/E+GYSEtUO4h8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6collage.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About1.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/About1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vzrbaj8tuh",
+      "Integrity": "e5iqadOpiZgn4PQn9dOjyetq6eHYst1tEcvevyWciUU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\About1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About2-removebg-preview.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/About2-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "057k09jfpc",
+      "Integrity": "3OoUwDXOPuW3nX/BfEliNWzlOQgLHEV7dBbm8vzxSTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\About2-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\AI.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/AI#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dkgun2wgpo",
+      "Integrity": "XW5n5ZpQUJkxxRHrM0bSuh7V+EyQHxVf4Le3sw6P57Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\AI.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\books.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/books#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "84vs1d0riw",
+      "Integrity": "iEELLrUOU2ECjOmmCHiNEbRlDWOITBRH9Dqdf07Hli4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\books.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\c#.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/c##[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8i4pel9k5h",
+      "Integrity": "ELWlXL4HDWoqbp7FyBKLIqgvAkkFX+n06Oo5ajG9Z2c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c#.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\C++.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/C++#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3k9m8ywg0h",
+      "Integrity": "HVafUguejRWR5aoP+jeD8ZdSt86b+N4rB3ZkXkO41yA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\C++.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\calender.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/calender#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aufo76piif",
+      "Integrity": "zkqUHSBV9a/RE9oTcnYSJz2KRnA6ZxtXzbQPb9nR01M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\calender.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Code.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/Code#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q67f7ir2r4",
+      "Integrity": "3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Code.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\cs.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/cs#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jrb3n62rzw",
+      "Integrity": "T40BB2UsiEoAN+jswENmiGzG2MUsznVOGRBP9z5WX8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cs.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Deep.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/Deep#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zulw7h5fjd",
+      "Integrity": "q5GniWU1FxQlWhEUF7ABqwscYaecfaGPPFxuI3+ODng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Deep.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\facebook-icon.png.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/facebook-icon.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ttvjks2dio",
+      "Integrity": "4QuCM61kOuNT/z8ItwTx8nA+ss6rHK9nqta4eyoFnq8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\facebook-icon.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\flexLogo.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/flexLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kypscmd5fp",
+      "Integrity": "lNmvx3IbkziDyugiyW+LF7+prYiAuXKCUOygugKb6Yk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\flexLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\footer-bg.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/footer-bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fqtvoiyn8w",
+      "Integrity": "RyjtTroCyYhIr8JKejUu4hBHiNS5jDxYIoCBx/kAov0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\footer-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\hero-bg.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/hero-bg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sfverzxg38",
+      "Integrity": "qA37U2iM6Y5eqr8s+dlm0gUP4eTeElYth37M7wtHE1M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\hero-bg.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\home1-removebg-preview.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/home1-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gf9a9948hn",
+      "Integrity": "xASnLBC2t8KRUoaF404f/mlaGWGPEznrpDIxkGGOuxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\home1-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\html5-386614_1920.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/html5-386614_1920#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iuutsn0qfp",
+      "Integrity": "luZC0JaHKEucV1Wd07+e+NwRbjN+Vh3rrOL6b8O9pJE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\html5-386614_1920.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\illustration.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/illustration#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ykkcrywfxn",
+      "Integrity": "MnaL9hjJgYxtM031WBiUmvrC3Grmqp5xofecYyuv8a8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\illustration.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\instagram-icon.png.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/instagram-icon.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h0zvmegzcx",
+      "Integrity": "AVGzFRtywZppeqX0ZI31GxIYF1BejUgBP4RKLtgl0YU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\instagram-icon.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Java.webp",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/Java#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "62m8t726gb",
+      "Integrity": "rnrns16wGDdJNOU599+GeNC69FjgSFPaYbORXSpGCxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Java.webp"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\leaderlogo.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/leaderlogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hz80gtbgzd",
+      "Integrity": "g36wNDUAAG6/kkT5DzxIDy8tV+OyYUsKxr2tXLtmX0U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\leaderlogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\newhtml.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/newhtml#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uvu1tgoiew",
+      "Integrity": "ms+alR0p+5pJqHbRsl6kvNPeWDpCdsf9spWcFM0hHbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\newhtml.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\notes.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/notes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wasfgsnpup",
+      "Integrity": "CO1vddifdgU2nWIn2Y9PJTi8OF402kUo6GW7bCHM4vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\notes.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-276452.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/pexels-pixabay-276452#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njmdp4dj1f",
+      "Integrity": "nXP77Nt7qjrdL6EIFdClBUWPs+nZ8BR1m37TgJ2XQ6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pexels-pixabay-276452.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-60504.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/pexels-pixabay-60504#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fp0dpvhpkp",
+      "Integrity": "LdZfenK7NqPbmBUB6+RNYVVDvjfMQ0tJa8m3otzHKv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pexels-pixabay-60504.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-shottrotter-1309766.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/pexels-shottrotter-1309766#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rivkufrr04",
+      "Integrity": "bTmJTh3gjhKS6dQQvbtTBxvk/LAUbexaetmW3NuFYTw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\pexels-shottrotter-1309766.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-collage.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/programming-background-collage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5yk38dz0ou",
+      "Integrity": "zRgJDxJTDLAnWHtetIxzqcES8/Kf3pevWNNzXgHXgVs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\programming-background-collage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/programming-background-with-person-working-with-codes-computer#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "htoq3uvodj",
+      "Integrity": "JQtRL6voF3kXNalIsyFDqByB20JPUv0X0RLTnJ3e2bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\ResponLogo.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/ResponLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0li1fyagtj",
+      "Integrity": "VOtegoYVeNxyaL/GKzbsN7pCZxsUKT348ycyqw45aKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ResponLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\rupa.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/rupa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0nezpnzfom",
+      "Integrity": "3JkzwoXq+9cKJqVMTMSyTyF9DEfMkLfXWH8VxK/PBGc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\rupa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Shashwat.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/Shashwat#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "px3br3pree",
+      "Integrity": "U+B0RB7AM0m9yPiG/XqlMHjMZUjtrUIyoXh9/td/lxE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Shashwat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\solveLogo.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/solveLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89fl74149d",
+      "Integrity": "hLgNVeh/4l6gvjgauYTD+VWgVu+N08Mn1v4TuFmdEkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\solveLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\turned-gray-laptop-computer.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/turned-gray-laptop-computer#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6lbv2mq0nc",
+      "Integrity": "lrktUkO8Lv+i5pNTMC5Egk8DwyuM2NM1DSxSGM5rBLQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\turned-gray-laptop-computer.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\twitter-icon.png.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/twitter-icon.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "izadh7hnur",
+      "Integrity": "IoqmQkACrVbcbgUPiGf/UeDgjAAHqEugPoirzFGWW0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\twitter-icon.png.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Video.mp4",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/Video#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8svbb2rkwm",
+      "Integrity": "WKd8AmPdxFb5MivNgKXjKig6PA42cnIHW0/wfEFmYEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Video.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\youtube-icon.png.png",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/youtube-icon.png#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88jmk3kkrc",
+      "Integrity": "KDWKxfFUI+6DsHZdunmHWqfHuVjeZ+RPvFG3EgQ7Ees=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\youtube-icon.png.png"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\js\\site.js",
@@ -1645,6 +2422,3040 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1-removebg-preview.b981cjrmf3.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\1-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Te29wvWKgaQICEnsVD2s4iJs2ukKRo2PGWA8pP/mW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b981cjrmf3"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/1-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Te29wvWKgaQICEnsVD2s4iJs2ukKRo2PGWA8pP/mW8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1-removebg-preview.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\1-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Te29wvWKgaQICEnsVD2s4iJs2ukKRo2PGWA8pP/mW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Te29wvWKgaQICEnsVD2s4iJs2ukKRo2PGWA8pP/mW8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/6collage.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\6collage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iFQSHEqAsE+cBhyUbinOYlVHZTTg6+/E+GYSEtUO4h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iFQSHEqAsE+cBhyUbinOYlVHZTTg6+/E+GYSEtUO4h8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/6collage.s7ipbi53ke.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\6collage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iFQSHEqAsE+cBhyUbinOYlVHZTTg6+/E+GYSEtUO4h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s7ipbi53ke"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/6collage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iFQSHEqAsE+cBhyUbinOYlVHZTTg6+/E+GYSEtUO4h8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/About1.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e5iqadOpiZgn4PQn9dOjyetq6eHYst1tEcvevyWciUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e5iqadOpiZgn4PQn9dOjyetq6eHYst1tEcvevyWciUU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/About1.vzrbaj8tuh.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e5iqadOpiZgn4PQn9dOjyetq6eHYst1tEcvevyWciUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vzrbaj8tuh"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/About1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e5iqadOpiZgn4PQn9dOjyetq6eHYst1tEcvevyWciUU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/About2-removebg-preview.057k09jfpc.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About2-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "403180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3OoUwDXOPuW3nX/BfEliNWzlOQgLHEV7dBbm8vzxSTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "057k09jfpc"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/About2-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3OoUwDXOPuW3nX/BfEliNWzlOQgLHEV7dBbm8vzxSTY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/About2-removebg-preview.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\About2-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "403180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3OoUwDXOPuW3nX/BfEliNWzlOQgLHEV7dBbm8vzxSTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3OoUwDXOPuW3nX/BfEliNWzlOQgLHEV7dBbm8vzxSTY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/AI.dkgun2wgpo.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\AI.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XW5n5ZpQUJkxxRHrM0bSuh7V+EyQHxVf4Le3sw6P57Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dkgun2wgpo"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/AI.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XW5n5ZpQUJkxxRHrM0bSuh7V+EyQHxVf4Le3sw6P57Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/AI.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\AI.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XW5n5ZpQUJkxxRHrM0bSuh7V+EyQHxVf4Le3sw6P57Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XW5n5ZpQUJkxxRHrM0bSuh7V+EyQHxVf4Le3sw6P57Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/books.84vs1d0riw.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\books.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEELLrUOU2ECjOmmCHiNEbRlDWOITBRH9Dqdf07Hli4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "84vs1d0riw"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/books.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEELLrUOU2ECjOmmCHiNEbRlDWOITBRH9Dqdf07Hli4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/books.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\books.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEELLrUOU2ECjOmmCHiNEbRlDWOITBRH9Dqdf07Hli4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEELLrUOU2ECjOmmCHiNEbRlDWOITBRH9Dqdf07Hli4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/c#.8i4pel9k5h.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\c#.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ELWlXL4HDWoqbp7FyBKLIqgvAkkFX+n06Oo5ajG9Z2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i4pel9k5h"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/c#.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ELWlXL4HDWoqbp7FyBKLIqgvAkkFX+n06Oo5ajG9Z2c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/c#.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\c#.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ELWlXL4HDWoqbp7FyBKLIqgvAkkFX+n06Oo5ajG9Z2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ELWlXL4HDWoqbp7FyBKLIqgvAkkFX+n06Oo5ajG9Z2c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/C++.3k9m8ywg0h.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\C++.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVafUguejRWR5aoP+jeD8ZdSt86b+N4rB3ZkXkO41yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:43:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3k9m8ywg0h"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/C++.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVafUguejRWR5aoP+jeD8ZdSt86b+N4rB3ZkXkO41yA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/C++.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\C++.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVafUguejRWR5aoP+jeD8ZdSt86b+N4rB3ZkXkO41yA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:43:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVafUguejRWR5aoP+jeD8ZdSt86b+N4rB3ZkXkO41yA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/calender.aufo76piif.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\calender.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkqUHSBV9a/RE9oTcnYSJz2KRnA6ZxtXzbQPb9nR01M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aufo76piif"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/calender.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkqUHSBV9a/RE9oTcnYSJz2KRnA6ZxtXzbQPb9nR01M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/calender.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\calender.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkqUHSBV9a/RE9oTcnYSJz2KRnA6ZxtXzbQPb9nR01M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkqUHSBV9a/RE9oTcnYSJz2KRnA6ZxtXzbQPb9nR01M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Code.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Code.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:45:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Code.q67f7ir2r4.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Code.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:45:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q67f7ir2r4"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Code.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cs.jrb3n62rzw.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\cs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T40BB2UsiEoAN+jswENmiGzG2MUsznVOGRBP9z5WX8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jrb3n62rzw"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/cs.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T40BB2UsiEoAN+jswENmiGzG2MUsznVOGRBP9z5WX8s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/cs.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\cs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T40BB2UsiEoAN+jswENmiGzG2MUsznVOGRBP9z5WX8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T40BB2UsiEoAN+jswENmiGzG2MUsznVOGRBP9z5WX8s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Deep.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Deep.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5GniWU1FxQlWhEUF7ABqwscYaecfaGPPFxuI3+ODng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5GniWU1FxQlWhEUF7ABqwscYaecfaGPPFxuI3+ODng="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Deep.zulw7h5fjd.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Deep.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5GniWU1FxQlWhEUF7ABqwscYaecfaGPPFxuI3+ODng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zulw7h5fjd"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Deep.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5GniWU1FxQlWhEUF7ABqwscYaecfaGPPFxuI3+ODng="
+        }
+      ]
+    },
+    {
+      "Route": "Images/facebook-icon.png.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\facebook-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QuCM61kOuNT/z8ItwTx8nA+ss6rHK9nqta4eyoFnq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QuCM61kOuNT/z8ItwTx8nA+ss6rHK9nqta4eyoFnq8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/facebook-icon.png.ttvjks2dio.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\facebook-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QuCM61kOuNT/z8ItwTx8nA+ss6rHK9nqta4eyoFnq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttvjks2dio"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/facebook-icon.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QuCM61kOuNT/z8ItwTx8nA+ss6rHK9nqta4eyoFnq8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/flexLogo.kypscmd5fp.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\flexLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lNmvx3IbkziDyugiyW+LF7+prYiAuXKCUOygugKb6Yk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kypscmd5fp"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/flexLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lNmvx3IbkziDyugiyW+LF7+prYiAuXKCUOygugKb6Yk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/flexLogo.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\flexLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lNmvx3IbkziDyugiyW+LF7+prYiAuXKCUOygugKb6Yk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lNmvx3IbkziDyugiyW+LF7+prYiAuXKCUOygugKb6Yk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/footer-bg.fqtvoiyn8w.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\footer-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RyjtTroCyYhIr8JKejUu4hBHiNS5jDxYIoCBx/kAov0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fqtvoiyn8w"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/footer-bg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RyjtTroCyYhIr8JKejUu4hBHiNS5jDxYIoCBx/kAov0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/footer-bg.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\footer-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RyjtTroCyYhIr8JKejUu4hBHiNS5jDxYIoCBx/kAov0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RyjtTroCyYhIr8JKejUu4hBHiNS5jDxYIoCBx/kAov0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/hero-bg.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\hero-bg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qA37U2iM6Y5eqr8s+dlm0gUP4eTeElYth37M7wtHE1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qA37U2iM6Y5eqr8s+dlm0gUP4eTeElYth37M7wtHE1M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/hero-bg.sfverzxg38.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\hero-bg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qA37U2iM6Y5eqr8s+dlm0gUP4eTeElYth37M7wtHE1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sfverzxg38"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/hero-bg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qA37U2iM6Y5eqr8s+dlm0gUP4eTeElYth37M7wtHE1M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/home1-removebg-preview.gf9a9948hn.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\home1-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xASnLBC2t8KRUoaF404f/mlaGWGPEznrpDIxkGGOuxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf9a9948hn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/home1-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xASnLBC2t8KRUoaF404f/mlaGWGPEznrpDIxkGGOuxA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/home1-removebg-preview.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\home1-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xASnLBC2t8KRUoaF404f/mlaGWGPEznrpDIxkGGOuxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xASnLBC2t8KRUoaF404f/mlaGWGPEznrpDIxkGGOuxA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/html5-386614_1920.iuutsn0qfp.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\html5-386614_1920.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"luZC0JaHKEucV1Wd07+e+NwRbjN+Vh3rrOL6b8O9pJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iuutsn0qfp"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/html5-386614_1920.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-luZC0JaHKEucV1Wd07+e+NwRbjN+Vh3rrOL6b8O9pJE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/html5-386614_1920.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\html5-386614_1920.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"luZC0JaHKEucV1Wd07+e+NwRbjN+Vh3rrOL6b8O9pJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-luZC0JaHKEucV1Wd07+e+NwRbjN+Vh3rrOL6b8O9pJE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/illustration.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\illustration.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MnaL9hjJgYxtM031WBiUmvrC3Grmqp5xofecYyuv8a8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MnaL9hjJgYxtM031WBiUmvrC3Grmqp5xofecYyuv8a8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/illustration.ykkcrywfxn.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\illustration.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MnaL9hjJgYxtM031WBiUmvrC3Grmqp5xofecYyuv8a8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykkcrywfxn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/illustration.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MnaL9hjJgYxtM031WBiUmvrC3Grmqp5xofecYyuv8a8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/instagram-icon.png.h0zvmegzcx.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\instagram-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVGzFRtywZppeqX0ZI31GxIYF1BejUgBP4RKLtgl0YU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h0zvmegzcx"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/instagram-icon.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVGzFRtywZppeqX0ZI31GxIYF1BejUgBP4RKLtgl0YU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/instagram-icon.png.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\instagram-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVGzFRtywZppeqX0ZI31GxIYF1BejUgBP4RKLtgl0YU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVGzFRtywZppeqX0ZI31GxIYF1BejUgBP4RKLtgl0YU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Java.62m8t726gb.webp",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Java.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rnrns16wGDdJNOU599+GeNC69FjgSFPaYbORXSpGCxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "62m8t726gb"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Java.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rnrns16wGDdJNOU599+GeNC69FjgSFPaYbORXSpGCxA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Java.webp",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Java.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rnrns16wGDdJNOU599+GeNC69FjgSFPaYbORXSpGCxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rnrns16wGDdJNOU599+GeNC69FjgSFPaYbORXSpGCxA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/leaderlogo.hz80gtbgzd.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\leaderlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g36wNDUAAG6/kkT5DzxIDy8tV+OyYUsKxr2tXLtmX0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hz80gtbgzd"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/leaderlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g36wNDUAAG6/kkT5DzxIDy8tV+OyYUsKxr2tXLtmX0U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/leaderlogo.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\leaderlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g36wNDUAAG6/kkT5DzxIDy8tV+OyYUsKxr2tXLtmX0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g36wNDUAAG6/kkT5DzxIDy8tV+OyYUsKxr2tXLtmX0U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/newhtml.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\newhtml.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ms+alR0p+5pJqHbRsl6kvNPeWDpCdsf9spWcFM0hHbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ms+alR0p+5pJqHbRsl6kvNPeWDpCdsf9spWcFM0hHbE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/newhtml.uvu1tgoiew.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\newhtml.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ms+alR0p+5pJqHbRsl6kvNPeWDpCdsf9spWcFM0hHbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uvu1tgoiew"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/newhtml.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ms+alR0p+5pJqHbRsl6kvNPeWDpCdsf9spWcFM0hHbE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/notes.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\notes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "921314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CO1vddifdgU2nWIn2Y9PJTi8OF402kUo6GW7bCHM4vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CO1vddifdgU2nWIn2Y9PJTi8OF402kUo6GW7bCHM4vc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/notes.wasfgsnpup.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\notes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "921314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CO1vddifdgU2nWIn2Y9PJTi8OF402kUo6GW7bCHM4vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wasfgsnpup"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/notes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CO1vddifdgU2nWIn2Y9PJTi8OF402kUo6GW7bCHM4vc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-pixabay-276452.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-276452.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXP77Nt7qjrdL6EIFdClBUWPs+nZ8BR1m37TgJ2XQ6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXP77Nt7qjrdL6EIFdClBUWPs+nZ8BR1m37TgJ2XQ6M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-pixabay-276452.njmdp4dj1f.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-276452.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXP77Nt7qjrdL6EIFdClBUWPs+nZ8BR1m37TgJ2XQ6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njmdp4dj1f"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pexels-pixabay-276452.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXP77Nt7qjrdL6EIFdClBUWPs+nZ8BR1m37TgJ2XQ6M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-pixabay-60504.fp0dpvhpkp.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-60504.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LdZfenK7NqPbmBUB6+RNYVVDvjfMQ0tJa8m3otzHKv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fp0dpvhpkp"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pexels-pixabay-60504.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LdZfenK7NqPbmBUB6+RNYVVDvjfMQ0tJa8m3otzHKv8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-pixabay-60504.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-pixabay-60504.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LdZfenK7NqPbmBUB6+RNYVVDvjfMQ0tJa8m3otzHKv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LdZfenK7NqPbmBUB6+RNYVVDvjfMQ0tJa8m3otzHKv8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-shottrotter-1309766.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-shottrotter-1309766.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "779607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bTmJTh3gjhKS6dQQvbtTBxvk/LAUbexaetmW3NuFYTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bTmJTh3gjhKS6dQQvbtTBxvk/LAUbexaetmW3NuFYTw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/pexels-shottrotter-1309766.rivkufrr04.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\pexels-shottrotter-1309766.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "779607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bTmJTh3gjhKS6dQQvbtTBxvk/LAUbexaetmW3NuFYTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rivkufrr04"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/pexels-shottrotter-1309766.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bTmJTh3gjhKS6dQQvbtTBxvk/LAUbexaetmW3NuFYTw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/programming-background-collage.5yk38dz0ou.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-collage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5115734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgJDxJTDLAnWHtetIxzqcES8/Kf3pevWNNzXgHXgVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5yk38dz0ou"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/programming-background-collage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgJDxJTDLAnWHtetIxzqcES8/Kf3pevWNNzXgHXgVs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/programming-background-collage.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-collage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5115734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgJDxJTDLAnWHtetIxzqcES8/Kf3pevWNNzXgHXgVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgJDxJTDLAnWHtetIxzqcES8/Kf3pevWNNzXgHXgVs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/programming-background-with-person-working-with-codes-computer.htoq3uvodj.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9627722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQtRL6voF3kXNalIsyFDqByB20JPUv0X0RLTnJ3e2bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "htoq3uvodj"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/programming-background-with-person-working-with-codes-computer.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQtRL6voF3kXNalIsyFDqByB20JPUv0X0RLTnJ3e2bg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/programming-background-with-person-working-with-codes-computer.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9627722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQtRL6voF3kXNalIsyFDqByB20JPUv0X0RLTnJ3e2bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQtRL6voF3kXNalIsyFDqByB20JPUv0X0RLTnJ3e2bg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ResponLogo.0li1fyagtj.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\ResponLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOtegoYVeNxyaL/GKzbsN7pCZxsUKT348ycyqw45aKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0li1fyagtj"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ResponLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOtegoYVeNxyaL/GKzbsN7pCZxsUKT348ycyqw45aKM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ResponLogo.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\ResponLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOtegoYVeNxyaL/GKzbsN7pCZxsUKT348ycyqw45aKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOtegoYVeNxyaL/GKzbsN7pCZxsUKT348ycyqw45aKM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/rupa.0nezpnzfom.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\rupa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "812182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JkzwoXq+9cKJqVMTMSyTyF9DEfMkLfXWH8VxK/PBGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nezpnzfom"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/rupa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3JkzwoXq+9cKJqVMTMSyTyF9DEfMkLfXWH8VxK/PBGc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/rupa.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\rupa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "812182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3JkzwoXq+9cKJqVMTMSyTyF9DEfMkLfXWH8VxK/PBGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3JkzwoXq+9cKJqVMTMSyTyF9DEfMkLfXWH8VxK/PBGc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Shashwat.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Shashwat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+B0RB7AM0m9yPiG/XqlMHjMZUjtrUIyoXh9/td/lxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+B0RB7AM0m9yPiG/XqlMHjMZUjtrUIyoXh9/td/lxE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Shashwat.px3br3pree.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Shashwat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+B0RB7AM0m9yPiG/XqlMHjMZUjtrUIyoXh9/td/lxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "px3br3pree"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Shashwat.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+B0RB7AM0m9yPiG/XqlMHjMZUjtrUIyoXh9/td/lxE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/solveLogo.89fl74149d.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\solveLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hLgNVeh/4l6gvjgauYTD+VWgVu+N08Mn1v4TuFmdEkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89fl74149d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/solveLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hLgNVeh/4l6gvjgauYTD+VWgVu+N08Mn1v4TuFmdEkA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/solveLogo.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\solveLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hLgNVeh/4l6gvjgauYTD+VWgVu+N08Mn1v4TuFmdEkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hLgNVeh/4l6gvjgauYTD+VWgVu+N08Mn1v4TuFmdEkA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/turned-gray-laptop-computer.6lbv2mq0nc.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\turned-gray-laptop-computer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11918676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrktUkO8Lv+i5pNTMC5Egk8DwyuM2NM1DSxSGM5rBLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6lbv2mq0nc"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/turned-gray-laptop-computer.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrktUkO8Lv+i5pNTMC5Egk8DwyuM2NM1DSxSGM5rBLQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/turned-gray-laptop-computer.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\turned-gray-laptop-computer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11918676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrktUkO8Lv+i5pNTMC5Egk8DwyuM2NM1DSxSGM5rBLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrktUkO8Lv+i5pNTMC5Egk8DwyuM2NM1DSxSGM5rBLQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/twitter-icon.png.izadh7hnur.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\twitter-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IoqmQkACrVbcbgUPiGf/UeDgjAAHqEugPoirzFGWW0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "izadh7hnur"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/twitter-icon.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IoqmQkACrVbcbgUPiGf/UeDgjAAHqEugPoirzFGWW0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/twitter-icon.png.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\twitter-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IoqmQkACrVbcbgUPiGf/UeDgjAAHqEugPoirzFGWW0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IoqmQkACrVbcbgUPiGf/UeDgjAAHqEugPoirzFGWW0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Video.8svbb2rkwm.mp4",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2942742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKd8AmPdxFb5MivNgKXjKig6PA42cnIHW0/wfEFmYEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8svbb2rkwm"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Video.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKd8AmPdxFb5MivNgKXjKig6PA42cnIHW0/wfEFmYEo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Video.mp4",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\Video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2942742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKd8AmPdxFb5MivNgKXjKig6PA42cnIHW0/wfEFmYEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKd8AmPdxFb5MivNgKXjKig6PA42cnIHW0/wfEFmYEo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/youtube-icon.png.88jmk3kkrc.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\youtube-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KDWKxfFUI+6DsHZdunmHWqfHuVjeZ+RPvFG3EgQ7Ees=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88jmk3kkrc"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/youtube-icon.png.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KDWKxfFUI+6DsHZdunmHWqfHuVjeZ+RPvFG3EgQ7Ees="
+        }
+      ]
+    },
+    {
+      "Route": "Images/youtube-icon.png.png",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\youtube-icon.png.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KDWKxfFUI+6DsHZdunmHWqfHuVjeZ+RPvFG3EgQ7Ees=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:30:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KDWKxfFUI+6DsHZdunmHWqfHuVjeZ+RPvFG3EgQ7Ees="
         }
       ]
     },

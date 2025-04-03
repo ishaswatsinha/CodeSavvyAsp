@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/_6th_Sem_Project.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .nav-link {
+            color: white !important;
+            transition: background-color 0.9s;
+        }
+
+            .nav-link:hover {
+                background-color: yellow;
+                color: black !important;
+            }
+
+        .active-link {
+            background-color: yellow;
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index" style="margin-right: auto; margin-left: 0;">
+                    <img src="~/images/cs.png" alt="Logo" width="100" height="40" class="me-2">
+                    <span class="fw-bold" style="color: white;"></span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" id="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Courses" asp-action="Courses" id="courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="About" id="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Contact" id="contact">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Buy Icon -->
+                <div class="d-flex align-items-center">
+                    <a asp-area="" asp-controller="ShoppingCart" asp-action="Index" class="text-white fs-5 me-2">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <div class="d-flex align-items-center">
+                        <!--  ye sign up hai isko same login k liye niche kiye hai yaha chnages karna hai<a asp-area="" asp-controller="SLogin" asp-action="Signup" class="text-white fs-5 ms-3 me-2">
+                             Sign Up
+                         </a>-->
+                        <a asp-area="" asp-controller="SLogin" asp-action="Login" class="text-white fs-5 ms-3 me-2">
+                            Login
+                        </a>
+
+                    </div>
+
+
+
+
+
+
+                    <a asp-controller="SAcountDetails" asp-action="Index">
+                        <img src="~/images/Shashwat.jpg" alt="Profile" style="width: 40px; height: 40px; border-radius: 50%; cursor: pointer;">
+                    </a>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(link => link.classList.remove('active-link'));
+                    this.classList.add('active-link');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

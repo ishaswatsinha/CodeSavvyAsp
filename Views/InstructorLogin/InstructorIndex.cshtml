@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "InstructorIndex";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+        <!-- Form -->
+        <form asp-action="Login" asp-controller="Account" method="post" style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); position: relative; margin-top: 100px;">
+
+            <!-- Toggle Switch -->
+            <div style="display: flex; background: #161D29; border-radius: 25px; padding: 5px; width: 100%; margin-bottom: 15px;">
+                <div id="student-tab" onclick="redirectToStudentPage()" style="flex: 1; text-align: center; padding: 10px; color: #b0b3b8; cursor: pointer;">Student</div>
+
+                <!-- Instructor Button -->
+                <div id="instructor-tab" onclick="toggleUserType('instructor')" style="flex: 1; text-align: center; padding: 10px; background: #000814; border-radius: 20px; color: white; font-weight: bold; cursor: pointer;">Instructors</div>
+            </div>
+
+            <div>Email Address*</div>
+            <input name="Email" type="email" placeholder="Enter email address" style="width: 100%; padding: 10px; background: #161D29; border: 1px solid #444; color: white; border-radius: 5px; outline: none; margin: 5px 0 10px;">
+
+            <div>Password*</div>
+            <input name="Password" type="password" placeholder="Enter password" style="width: 100%; padding: 10px; background: #161D29; border: 1px solid #444; color: white; border-radius: 5px; outline: none; margin: 5px 0 10px;">
+
+            <!-- Forgot Password Link -->
+            <div style="text-align: right; font-size: 14px; margin-bottom: 10px;">
+                <a href="@Url.Action("ForgotPassIns", "InstructorLogin")" style="color: #ffcc00; cursor: pointer; text-decoration: none; font-weight: bold;">Forgot Password?</a>
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" style="width: 100%; padding: 10px; background: #ffcc00; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; margin-top: 10px; text-align: center;">Login</button>
+
+            <!-- Sign-up Redirect -->
+            <div style="text-align: center; margin-top: 10px; font-size: 14px;">
+                <span>Don't have an account? </span>
+                <a href="@Url.Action("Signup", "Slogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Sign up</a>
+            </div>
+        </form>
+
+        <!-- Animation -->
+        <div id="animation-container" style=" height:100%; margin-left: 10px;">
+            <iframe style="width:600px; height:600px;" src="https://lottie.host/embed/f91056f7-2366-443c-b691-d311c6efc0bf/RGUGo8vsvH.lottie"></iframe>
+        </div>
+    </div>
+
+    <!-- Toggle Switch Script -->
+    <script>
+        function toggleUserType(type) {
+            if (type === 'instructor') {
+                document.getElementById('instructor-tab').style.background = '#000814';
+                document.getElementById('instructor-tab').style.color = 'white';
+                document.getElementById('student-tab').style.background = 'transparent';
+                document.getElementById('student-tab').style.color = '#b0b3b8';
+            }
+        }
+
+        function redirectToStudentPage() {
+            window.location.href = "@Url.Action("Login", "Slogin")"; // Replace with the correct page link
+        }
+
+        function redirectToInstructorPage() {
+            window.location.href = "instructor.html"; // अपनी सही पेज लिंक डालें
+        }
+    </script>
+</body>
+
+
+

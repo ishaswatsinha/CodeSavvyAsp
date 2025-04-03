@@ -2,7 +2,362 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Learning</title>
+</head>
+<body style=" color: white; font-family: Arial, sans-serif; margin: 0px; padding: 0px;">
+    <div style="background-color: #0a0f1d;">
+        <!-- First Section (Text Left, Image Right) -->
+        <div style="display: flex; align-items: center; justify-content: center; padding: 50px;">
+            <div style="flex: 1; text-align: left; padding: 20px;">
+                <h1 style="font-size: 36px;">
+                    Elevate Your Skill <span style="color: cyan;">Anytime</span> <br>
+                    <span style="color: cyan;">Anywhere</span>
+                </h1>
+                <p style="font-size: 18px;">
+                    Wherever you are, enhance your skills with our online coding courses.
+                </p>
+
+                <!-- First Button Start  -->
+                <div style="display:flex; gap:20px; justify-content:center; align-items:center;">
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Learn More
+                    </button>
+
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Book a Demo
+                    </button>
+                </div>
+            </div>
+            <!-- First Button End  -->
+
+            <div style="flex: 1; text-align: center;">
+                <img src="~/images/home1-removebg-preview.png" alt="Learning Image" style="max-width: 90%; border-radius: 10px;">
+            </div>
+        </div>
+
+        <!-- Second Section (Text Left, Image Right - Same as Above) -->
+        <div style="display: flex; align-items: center; justify-content: center; padding: 50px;">
+            <div style="flex: 1; text-align: left; padding: 20px;">
+                <h2 style="color: cyan;">Turn potential <span style="color: yellow;">into power!</span></h2>
+                <p>Designed and taught by industry veterans with extensive coding experience.</p>
+
+
+
+                <!-- Second Button Start  -->
+                <div style="display:flex; gap:20px;">
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Learn More
+                    </button>
+
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Book a Demo
+                    </button>
+                </div>
+            </div>
+            <!-- Second Button End  -->
+
+            <div style="flex: 1; text-align: center;">
+                <img src="/images/newhtml.jpg" alt="Coding Image" style="max-width: 90%; border-radius: 10px;">
+            </div>
+        </div>
+
+
+
+        <!-- Third Section (Text Left, Image Right - Same as Above) -->
+
+        <div style="display: flex; align-items: center; justify-content: center; padding: 50px;">
+            <!-- Image on Left -->
+            <div style="flex: 1; text-align: center;">
+                <img src="~/images/newhtml.jpg" alt="Coding Image" style="max-width: 90%; border-radius: 10px;">
+            </div>
+
+            <!-- Text on Right -->
+            <div style="flex: 1; text-align: left; padding: 20px;">
+                <h2 style="color: cyan;">Turn potential <span style="color: yellow;">into power!</span></h2>
+                <p>Designed and taught by industry veterans with extensive coding experience.</p>
+
+
+                <div style="display:flex; gap:20px; ">
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Learn More
+                    </button>
+
+                    <button class="button-86" role="button"
+                            onclick="window.location.href='@Url.Action("Login", "SLogin")'">
+                        Book a Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--Animation wala-->
+
+        <div style="display: flex; align-items: center; justify-content: center; padding: 60px; gap: 50px;">
+            <!-- Left Side: Timeline Content -->
+            <div style="flex: 1;">
+                <div style="display: flex; align-items: center; margin-bottom: 30px; gap: 20px;">
+                    <img src="/images/leaderlogo.png" alt="Leadership" style="width: 50px; height: 50px;">
+                    <div>
+                        <h3 style="color: cyan; margin-bottom: 5px;">Leadership</h3>
+                        <p style="color: white; margin: 0;">Fully committed to the success company</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; margin-bottom: 30px; gap: 20px;">
+                    <img src="~/images/ResponLogo.png" alt="Responsibility" style="width: 50px; height: 50px;">
+                    <div>
+                        <h3 style="color: #ff4d6d; margin-bottom: 5px;">Responsibility</h3>
+                        <p style="color: white; margin: 0;">Students will always be our top priority</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; margin-bottom: 30px; gap: 20px;">
+                    <img src="~/images/flexLogo.png" alt="Flexibility" style="width: 50px; height: 50px;">
+                    <div>
+                        <h3 style="color: cyan; margin-bottom: 5px;">Flexibility</h3>
+                        <p style="color: white; margin: 0;">The ability to switch is an important skill</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <img src="/images/solveLogo.png" alt="Solve the Problem" style="width: 50px; height: 50px;">
+                    <div>
+                        <h3 style="color: yellow; margin-bottom: 5px;">Solve the problem</h3>
+                        <p style="color: white; margin: 0;">Code your way to a solution</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Circle Animation -->
+            <div style="flex: 1; text-align: center;">
+                <!-- Circle Animation (Tum apna animation ka link idhar daal do) -->
+                <!-- Animation -->
+                <iframe src="https://lottie.host/embed/f91056f7-2366-443c-b691-d311c6efc0bf/RGUGo8vsvH.lottie" style="width: 600px; height: 600px; border: none;"></iframe>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--Unlock the Power of Code-->
+
+
+    <div style="background-color: #E9C012; padding: 50px; text-align: center;">
+
+        <!-- Title Section -->
+        <h2 style="color: cyan; font-style: italic; font-size: 24px;">Unlock the <span style="color: blue;">Power of Code</span></h2>
+        <p style="font-style: italic; font-size: 18px;">Learn to Build Anything You Can Imagine</p>
+
+        <!-- Category Buttons -->
+        <div style="margin: 20px;">
+            <button style="background-color: black; color: white; border-radius: 15px; padding: 8px 15px; border: none; cursor: pointer;">Free</button>
+            <button style="background-color: yellow; border-radius: 15px; padding: 8px 15px; border: none; cursor: pointer;">New to coding</button>
+            <button style="background-color: yellow; border-radius: 15px; padding: 8px 15px; border: none; cursor: pointer;">Most popular</button>
+            <button style="background-color: yellow; border-radius: 15px; padding: 8px 15px; border: none; cursor: pointer;">Skills paths</button>
+            <button style="background-color: yellow; border-radius: 15px; padding: 8px 15px; border: none; cursor: pointer;">Career paths</button>
+        </div>
+
+        <!-- Course Cards Section -->
+        <div style="display: flex; justify-content: center; gap: 60px; margin-top: 30px;">
+
+            <!-- HTML Card -->
+            <div style="width: 300px; background-color: white; padding: 10px; border-radius: 10px;">
+                <h3>HTML</h3>
+                <div style="background-color: #d1a3ff; padding: 15px; border-radius: 8px;">
+                    <h4>Learn HTML</h4>
+                    <p>This course covers the basics of HTML including structuring pages, adding text, images, and more.</p>
+                    <p>👶 Beginner &nbsp; 📚 6 Lessons</p>
+                </div>
+            </div>
+
+            <!-- CSS Card -->
+            <div style="width: 300px; background-color: white; padding: 10px; border-radius: 10px;">
+                <h3>CSS</h3>
+                <div style="background-color: #1a1a2e; padding: 15px; border-radius: 8px; color: white;">
+                    <h4>Learn CSS</h4>
+                    <p>Explore topics like animations, transitions, and layout techniques in CSS.</p>
+                    <p>👶 Beginner &nbsp; 📚 6 Lessons</p>
+                </div>
+            </div>
+
+            <!-- Web Design Card -->
+            <div style="width: 300px; background-color: white; padding: 10px; border-radius: 10px;">
+                <h3>WEB DESIGN</h3>
+                <div style="background-color: #1a1a2e; padding: 15px; border-radius: 8px; color: white;">
+                    <h4>Responsive Web Design</h4>
+                    <p>Learn techniques to make web pages adapt to different screen sizes.</p>
+                    <p>👶 Beginner &nbsp; 📚 6 Lessons</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <div style="margin-top: 30px;">
+            <div style="display:flex; gap:20px; justify-content:center; align-items:center;">
+                <button class="button-86" role="button">
+                    Full Catalog →
+                </button>
+                <button class="button-86" role="button">
+                    Learn More
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+        <!--yaha se Team member-->
+
+        <div style="  padding: 50px; text-align: center;">
+
+            <!-- Team Title -->
+            <button style="background-color: white; border: none; padding: 10px 20px; border-radius: 20px; font-weight: bold; cursor: pointer;">
+                OUR TEAM
+            </button>
+            <h2 style="font-style: italic; font-size: 28px; margin-top: 10px;">
+                We have experienced Team
+            </h2>
+
+            <!-- Team Members Section -->
+            <div style="display: flex; justify-content: center; align-items: center; gap: 150px; margin-top: 50px;">
+
+                <!-- Member 1 -->
+                <div style="text-align: center;">
+                    <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 5px solid white; margin: auto;">
+                        <img src="/images/Deep.jpg" alt="Divyanshu Raj Verma" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <h3 style="font-family: cursive; margin-top: 30px;">Divyanshu Raj Verma</h3>
+                    <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                        Co-Founder
+                    </button>
+                </div>
+
+                <!-- Member 2 (Founder - Center) -->
+                <div style="text-align: center;">
+                    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 8px solid white; margin: auto;">
+                        <img src="~/images/Shashwat.jpg" alt="Shaswat Sinha" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <h3 style="font-family: cursive; font-size: 26px; margin-top: 30px;">Shaswat Sinha</h3>
+                    <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                        Founder
+                    </button>
+                </div>
+
+                <!-- Member 3 -->
+                <div style="text-align: center;">
+                    <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 5px solid white; margin: auto;">
+                        <img src="~/images/rupa.jpg" alt="Rupa Kumari" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <h3 style="font-family: cursive; margin-top: 30px;">Rupa Kumari</h3>
+                    <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                        Co-Founder
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--yaha se swiss knife for-->
+
+
+
+    <div style="background-image: url('images/hero-bg.png'); background-size:cover; padding:100px; text-align: center;">
+
+        <!-- Heading -->
+        <h2 style="font-style: italic; font-size: 28px; font-weight: bold;">
+            Your swiss knife for <span style="color: #2ecc71;">learning any language</span>
+        </h2>
+        <p style="max-width: 600px; margin: 10px auto; font-size: 16px; color: #333;">
+            Using spin making learning multiple languages easy. With 20+ languages, realistic voice-over, progress tracking,
+            custom schedule and more.
+        </p>
+
+        <!-- Cards Container -->
+        <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 50px;">
+
+            <!-- Notes Card -->
+            <div style="width: 280px; background: white; padding: 20px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.2); transform: rotate(-10deg);">
+                <h3 style="background: #add8e6; padding: 5px 10px; border-radius: 5px; display: inline-block;">Notes</h3>
+                <p style="color: red; font-size: 14px; margin-top: 10px;">
+                    Our Notes simplify even the most complex coding concepts, making programming easy to grasp for learners at all levels.
+                </p>
+                <img src="/images/books.jpg" alt="Notes" style="width:100%; margin-top: 10px;">
+            </div>
+
+            <!-- Reference Books Card -->
+            <div style="width: 280px; background: white; padding: 20px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.2); transform: rotate(0deg);">
+                <h3 style="background: #f8a5c2; padding: 5px 10px; border-radius: 5px; display: inline-block;">Reference Books</h3>
+                <p style="color: #333; font-size: 14px; margin-top: 10px;">
+                    Our experts have created thorough study materials that break down complicated concepts into easily understandable content.
+                </p>
+                <img src="~/images/notes.jpg" alt="Reference Books" style="width: 100%; margin-top: 10px;">
+            </div>
+
+            <!-- Plan Your Lessons Card -->
+            <div style="width: 280px; background: white; padding: 20px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.2); transform: rotate(10deg);">
+                <h3 style="background: #f4d03f; padding: 5px 10px; border-radius: 5px; display: inline-block;">Plan your lessons</h3>
+                <p style="color: #333; font-size: 14px; margin-top: 10px;">
+                    Our experts create structured lesson plans that simplify complex topics, ensuring an effective and engaging learning experience for students.
+                </p>
+                <img src="/images/calender.jpg" alt="Plan Lessons" style="width: 100%; margin-top: 10px;">
+            </div>
+
+        </div>
+
+        <!-- Learn More Button -->
+        <button style="margin-top: 50px; background: black; color: white; padding: 12px 24px; border-radius: 10px; font-size: 16px; border: none; cursor: pointer;">
+            Learn More
+        </button>
+
+    </div>
+
+
+
+    <!--Become an Instructor-->
+
+    <div style=" background-color: white;display: flex; align-items: center; padding: 50px; background: white; max-width: 900px; margin: auto;">
+
+        <!-- Image Section -->
+        <div style="width: 250px; height: 250px; overflow: hidden; border: 5px solid white; flex-shrink: 0;">
+            <img src="~/images/About1.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <!-- Text Section -->
+        <div style="margin-left: 60px; text-align: left; max-width: 500px;">
+            <h2 style="font-style: italic; font-size: 28px; color: black;">
+                Become an <span style="color: #2ecc71;">instructor</span>
+            </h2>
+            <p style="color: #333; font-size: 16px; margin-top: 10px;">
+                Instructors from around the world teach millions of students on StudyNotion. We provide the tools and skills to teach what you love.
+            </p>
+            <div style="display:flex; gap:40px; ">
+                <button class="button-86" role="button" onclick="window.location.href='@Url.Action("InsIndex", "Instructor")'">
+
+                    Learn Today
+                </button>
+            </div>
+
+        </div>
+
+</body>
+</html>

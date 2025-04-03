@@ -7,43 +7,199 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CodeSavvyAsp.styles.css" asp-append-version="true" />
+    <style>
+        .nav-link {
+            color: white !important;
+            transition: background-color 0.9s;
+        }
+
+            .nav-link:hover {
+                background-color: yellow;
+                color: black !important;
+            }
+
+        .active-link {
+            background-color: yellow;
+            color: black !important;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CodeSavvyAsp</a>
+
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index" style="margin-right: auto; margin-left: 0;">
+                    <img src="~/images/cs.png" alt="Logo" width="100" height="40" class="me-2">
+                    <span class="fw-bold" style="color: white;"></span>
+                </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" id="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" asp-area="" asp-controller="Courses" asp-action="Courses" id="courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="About" id="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Contact" id="contact">Contact us</a>
                         </li>
                     </ul>
+                </div>
+
+                <!-- Buy Icon -->
+                <div class="d-flex align-items-center">
+                    <a asp-area="" asp-controller="ShoppingCart" asp-action="Index" class="text-white fs-5 me-2">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <div class="d-flex align-items-center">
+                        <!--  ye sign up hai isko same login k liye niche kiye hai yaha chnages karna hai<a asp-area="" asp-controller="SLogin" asp-action="Signup" class="text-white fs-5 ms-3 me-2">
+                             Sign Up
+                         </a>-->
+                        <a asp-area="" asp-controller="SLogin" asp-action="Login" class="text-white fs-5 ms-3 me-2">
+                            Login
+                        </a>
+
+                    </div>
+
+
+
+
+
+
+                    <a asp-controller="SAcountDetails" asp-action="Index">
+                        <img src="~/images/Shashwat.jpg" alt="Profile" style="width: 40px; height: 40px; border-radius: 50%; cursor: pointer;">
+                    </a>
+
+
+
                 </div>
             </div>
         </nav>
     </header>
+
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - CodeSavvyAsp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer style="background-image: url('/images/footer-bg.jpg'); color:white; background-size: cover; height:610px;  padding: 130px 100px; margin-top:100px; font-family: Arial, sans-serif; position: relative; width: 100%;  margin-bottom:0px;">
+
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; position: relative; z-index: 2; margin-top: 140px; ">
+            <!-- Left Section -->
+            <div style="max-width: 400px;">
+                <h2 style="font-size: 20px;">⚡CodeSavvy</h2>
+                <p>Company</p>
+                <div style="font-size:12px;">
+                    <p><a href="#" style="color: #aaa; text-decoration: none;">About</a></p>
+                    <p><a href="#" style="color: #aaa; text-decoration: none;">Careers</a></p>
+                    <p><a href="#" style="color: #aaa; text-decoration: none;">Affiliates</a></p>
+                    <div style="margin-top: 10px;">
+                        <a href="#"><img src="~/images/facebook-icon.png.png" width="20"></a>
+                        <a href="#"><img src="/images/instagram-icon.png.png" width="20"></a>
+                        <a href="#"><img src="~/images/twitter-icon.png.png" width="20"></a>
+                        <a href="#"><img src="/images/youtube-icon.png.png" width="20"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Middle Sections -->
+            <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+                <div>
+                    <div style="font-size:12px;">
+                        <h4>Resources</h4>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Articles</a></p>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Blog</a></p>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Code Challenges</a></p>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Docs</a></p>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Projects</a></p>
+                        <p><a href="#" style="color: #aaa; text-decoration: none;">Videos</a></p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Subjects</h4>
+                    <div style="font-size:12px;">
+                        <p>AI</p>
+                        <p>Cybersecurity</p>
+                        <p>Data Science</p>
+                        <p>DevOps</p>
+                        <p>Game Development</p>
+                        <p>Machine Learning</p>
+                    </div>
+                </div>
+                <div>
+                    <div style="font-size:12px;">
+                        <h4>Languages</h4>
+                        <p>C</p>
+                        <p>C++</p>
+                        <p>C#</p>
+                        <p>HTML & CSS</p>
+                        <p>Java</p>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div>
+                    <div style="font-size:12px;">
+                        <h4>Career Building</h4>
+                        <p>Career Paths</p>
+                        <p>Career Services</p>
+                        <p>Interview Prep</p>
+                        <p>Professional Certification</p>
+                        <p>Full Catalog</p>
+                        <p>Beta Content</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
+
+        <!-- Bottom Section -->
+        <div style=" border-top: 1px solid #222; margin-top: 20px; padding-top: 20px; margin-bottom: -50px; text-align: center; font-size: 14px; color: #aaa; display:flex; justify-content:space-between;">
+            <div>
+                <a href="#" style="color: #aaa; margin-right: 15px;">Privacy Policy</a>
+                <a href="#" style="color: #aaa; margin-right: 15px;">Cookie Policy</a>
+                <a href="#" style="color: #aaa;">Terms</a>
+            </div>
+            <div>
+                <p>Made with ❤️ CodeSavvy © 2025</p>
+
+            </div>
+        </div>
+
     </footer>
+
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(link => link.classList.remove('active-link'));
+                    this.classList.add('active-link');
+                });
+            });
+        });
+    </script>
 </body>
 </html>

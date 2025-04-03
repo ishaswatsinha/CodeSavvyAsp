@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div class="sidebar">
+    <a asp-controller="SAcountDetails" asp-action="Index" class="active">
+        <i class="fa fa-user"></i> My Profile
+    </a>
+
+    <a asp-controller="SAcountDetails" asp-action="EnrolledCourses">
+        <i class="fa fa-book"></i> Enrolled Courses
+    </a>
+
+    <a asp-controller="SAcountDetails" asp-action="Wishlisht">
+        <i class="fa fa-heart"></i> Wishlist
+    </a>
+
+    @* <a asp-controller="SAcountDetails" asp-action="Index">Courses</a> *@ 
+       <a asp-controller="SAcountDetails" asp-action="Settings">
+        <i class="fa fa-cog"></i> Settings
+    </a>
+
+    <a asp-controller="Auth" asp-action="Logout">
+        <i class="fa fa-sign-out-alt"></i> Log Out
+    </a>
+</div>
