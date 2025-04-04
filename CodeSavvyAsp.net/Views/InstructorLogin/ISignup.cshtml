@@ -1,0 +1,77 @@
+﻿@model CodeSavvyAsp.net.Models.Instructor
+
+@{
+    ViewData["Title"] = "ISignup";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+        <!-- Form -->
+        <form asp-action="ISignup" asp-controller="InstructorLogin" method="post" style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); position: relative; margin-top: 100px;">
+
+            <!-- Toggle Switch -->
+            <div style="display: flex; background: #161D29; border-radius: 25px; padding: 5px; width: 100%; margin-bottom: 15px;">
+                <div id="student-tab" onclick="redirectToStudentPage()" style="flex: 1; text-align: center; padding: 10px; color: #b0b3b8; cursor: pointer;">Student</div>
+
+                <!-- Instructor Button -->
+                <div id="instructor-tab" style="flex: 1; text-align: center; padding: 10px; background: #000814; border-radius: 20px; color: white; font-weight: bold; cursor: pointer;">Instructors</div>
+            </div>
+
+            <div>First Name*</div>
+            <input asp-for="FirstName" type="text" placeholder="Enter first name" class="form-control custom-input" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+
+            <div>Last Name*</div>
+            <input asp-for="LastName" type="text" placeholder="Enter last name" class="form-control custom-input" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+
+            <div>Email Address*</div>
+            <input asp-for="Email" type="email" placeholder="Enter email address" class="form-control custom-input" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <div>Phone Number*</div>
+            <input asp-for="PhoneNumber" type="text" placeholder="Enter phone number" class="form-control custom-input" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+            <div>Password*</div>
+            <input asp-for="Password" type="password" placeholder="Create password" class="form-control custom-input" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+            <!-- Create Account Button -->
+            <button type="submit" class="btn btn-warning mt-3" style="width: 100%;">Create Account</button>
+
+            <!-- Already have an account? -->
+            <div style="text-align: center; margin-top: 10px; font-size: 14px;">
+                <span>Already have an account? </span>
+                <a href="@Url.Action("ILogin", "InstructorLogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Login</a>
+            </div>
+        </form>
+
+        <!-- Animation -->
+        <div id="animation-container" style="height:100%; margin-left: 10px;">
+            <iframe style="width:600px; height:600px;" src="https://lottie.host/embed/f91056f7-2366-443c-b691-d311c6efc0bf/RGUGo8vsvH.lottie"></iframe>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        function redirectToStudentPage() {
+            window.location.href = "@Url.Action("Signup", "Slogin")";
+        }
+    </script>
+
+    <style>
+        .custom-input {
+            width: 100%;
+            padding: 10px;
+            background: #161D29;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 5px;
+            outline: none;
+            margin: 5px 0 10px;
+        }
+    </style>
+</body>
+

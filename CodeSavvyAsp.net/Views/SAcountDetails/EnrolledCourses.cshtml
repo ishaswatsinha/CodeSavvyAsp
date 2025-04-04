@@ -1,0 +1,236 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrolled Courses - CodeSavvy</title>
+
+    <!-- Bootstrap CDN for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #f9f6e6;
+            height: 100vh;
+            position: fixed;
+            padding: 20px;
+        }
+
+            .sidebar a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 5px;
+            }
+
+                .sidebar a.active, .sidebar a:hover {
+                    background-color: gold;
+                    border-radius: 5px;
+                }
+
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        .filter-tabs {
+            margin-bottom: 20px;
+        }
+
+            .filter-tabs button {
+                background: none;
+                border: none;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+
+            .filter-tabs .active {
+                color: blue;
+                border-bottom: 2px solid blue;
+            }
+
+        .course-list {
+            background: #fffde7;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .course-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+            .course-item img {
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                margin-right: 15px;
+            }
+
+        .course-details {
+            flex-grow: 1;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+            position: relative;
+            width: 150px;
+        }
+
+        .progress {
+            height: 100%;
+            border-radius: 4px;
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        .options {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation Menu -->
+    <div class="sidebar">
+        <a asp-controller="SAcountDetails" asp-action="Index">
+            <i class="fa fa-user"></i> My Profile
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="EnrolledCourses" class="active">
+            <i class="fa fa-book"></i> Enrolled Courses
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="Wishlisht">
+            <i class="fa fa-heart"></i> Wishlist
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="Settings">
+            <i class="fa fa-cog"></i> Settings
+        </a>
+
+        <a asp-controller="Auth" asp-action="Logout">
+            <i class="fa fa-sign-out-alt"></i> Log Out
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2 class="mb-4">Enrolled Courses</h2>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <!-- Course List -->
+        <div class="course-list" id="courseList">
+            <div class="course-item" data-status="pending">
+                <img src="https://via.placeholder.com/50" alt="Course">
+                <div class="course-details">
+                    <b>The Complete Python</b>
+                    <p>Short Description</p>
+                </div>
+                <span>2hr 30 mins</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%; background: blue;"></div>
+                </div>
+                <div class="dropdown">
+                    <span class="options dropdown-toggle" data-bs-toggle="dropdown">⋮</span>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
+                        <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="course-item" data-status="pending">
+                <img src="https://via.placeholder.com/50" alt="Course">
+                <div class="course-details">
+                    <b>JavaScript Essentials</b>
+                    <p>Short Description</p>
+                </div>
+                <span>3hr 10 mins</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 20%; background: blue;"></div>
+                </div>
+                <div class="dropdown">
+                    <span class="options dropdown-toggle" data-bs-toggle="dropdown">⋮</span>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
+                        <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        // Filter Courses
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+
+                let filter = this.getAttribute('data-filter');
+                document.querySelectorAll('.course-item').forEach(course => {
+                    if (filter === 'all') {
+                        course.style.display = 'flex';
+                    } else if (filter === course.getAttribute('data-status')) {
+                        course.style.display = 'flex';
+                    } else {
+                        course.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Mark as Completed
+        document.querySelectorAll('.mark-completed').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                let course = this.closest('.course-item');
+                course.setAttribute('data-status', 'completed');
+                course.querySelector('.progress').style.width = '100%';
+                course.querySelector('.progress').style.backgroundColor = 'green';
+            });
+        });
+
+        // Remove Course
+        document.querySelectorAll('.remove-course').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                let course = this.closest('.course-item');
+                course.remove();
+            });
+        });
+
+    </script>
+
+</body>
+</html>

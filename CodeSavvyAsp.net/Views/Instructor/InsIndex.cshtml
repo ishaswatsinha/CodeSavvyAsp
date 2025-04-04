@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewData["Title"] = "InsIndex";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - CodeSavvy</title>
+
+    <!-- Bootstrap CDN for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Overall body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f9f6e6;
+            height: 100vh; /* Full height */
+            position: fixed;
+            padding: 20px;
+        }
+            /* Sidebar links */
+            .sidebar a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 5px;
+            }
+                /* Active or hovered sidebar links */
+                .sidebar a.active, .sidebar a:hover {
+                    background-color: gold;
+                    border-radius: 5px;
+                }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CodeSavvy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+
+        <a asp-controller="SAcountDetails" asp-action="Index" class="active">
+            <i class="fa fa-user"></i> Dashboard
+        </a>
+
+
+        <a asp-controller="SAcountDetails" asp-action="Index" class="active">
+            <i class="fa fa-user"></i> My Profile
+        </a>
+        <a asp-controller="SAcountDetails" asp-action="EnrolledCourses">
+            <i class="fa fa-book"></i> Courses
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="Settings">
+            <i class="fa fa-cog"></i> Settings
+        </a>
+        <a asp-controller="Auth" asp-action="Logout">
+            <i class="fa fa-sign-out-alt"></i> Log Out
+        </a>
+    </div>
+
+</body>
+</html>
+
+

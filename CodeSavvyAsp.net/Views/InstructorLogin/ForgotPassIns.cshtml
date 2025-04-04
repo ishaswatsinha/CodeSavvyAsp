@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "ForgotPassIns";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <!-- Form -->
+        <form asp-action="ForgotPassword" asp-controller="Account" method="post" style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); position: relative;">
+
+            <!-- Information Text -->
+            <div style="margin-bottom: 15px;">
+                <span style="font-size: 24px; font-weight: bold;">Reset your password</span>
+                <br>
+                Have no fear. We'll email you instructions to reset your password. If you don't have access to your email, we can try account recovery.
+            </div>
+
+            <!-- Email Address -->
+            <div>Email Address*</div>
+            <input name="Email" type="email" placeholder="Enter email address" style="width: 100%; padding: 10px; background: #161D29; border: 1px solid #444; color: white; border-radius: 5px; outline: none; margin: 5px 0 10px;">
+
+            <!-- Submit Button -->
+            <button type="submit" style="width: 100%; padding: 10px; background: #ffcc00; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; margin-top: 10px; text-align: center;">Reset Password</button>
+
+            <div style="text-align: center; margin-top: 10px; font-size: 14px;">
+                <a href="@Url.Action("InstructorIndex", "InstructorLogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Back to Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+

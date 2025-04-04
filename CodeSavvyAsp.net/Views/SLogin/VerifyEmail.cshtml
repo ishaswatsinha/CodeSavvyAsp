@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "VerifyEmail";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <form asp-action="VerifyEmail" asp-controller="SLogin" method="post" style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); position: relative;">
+
+            <div style="margin-bottom: 15px;">
+                <span style="font-size: 24px; font-weight: bold;">Verify Your Email</span>
+                <br>
+                Enter the verification code sent to your email.
+            </div>
+
+            <div>Verification Code*</div>
+            <input name="VerificationCode" type="text" placeholder="Enter verification code" required style="width: 100%; padding: 10px; background: #161D29; border: 1px solid #444; color: white; border-radius: 5px; outline: none; margin: 5px 0 10px;">
+
+            <button type="submit" style="width: 100%; padding: 10px; background: #ffcc00; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; margin-top: 10px;">Verify</button>
+
+            <div style="text-align: center; margin-top: 10px;">
+                <a href="@Url.Action("ResendEmail", "SLogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Resend Code</a>
+            </div>
+        </form>
+    </div>
+</body>

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "ResetComplete";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;">
+        <div style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);">
+            <span style="font-size: 24px; font-weight: bold;">Password Reset Successful</span>
+            <br>
+            Your password has been successfully reset. You can now log in with your new password.
+
+            <div style="margin-top: 20px;">
+                <a href="@Url.Action("Login", "SLogin")" style="display: block; width: 100%; padding: 10px; background: #ffcc00; font-size: 16px; font-weight: bold; border-radius: 5px; text-align: center; color: black; text-decoration: none;">Go to Login</a>
+            </div>
+        </div>
+    </div>
+</body>
