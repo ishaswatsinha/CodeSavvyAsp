@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeSavvyAsp.net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5325332a3a4cc403db1573722a831986adba7b58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2edca4aba9bee04f7b332e42ce85a5e12196a3e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeSavvyAsp.net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeSavvyAsp.net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
