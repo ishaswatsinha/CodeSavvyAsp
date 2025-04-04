@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\AspProject\\CodeSavvyAsp.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\RASP\\CodeSavvyAsp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\AspProject\\CodeSavvyAsp.csproj": {
+    "C:\\Users\\DELL\\Desktop\\RASP\\CodeSavvyAsp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\AspProject\\CodeSavvyAsp.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\RASP\\CodeSavvyAsp.csproj",
         "projectName": "CodeSavvyAsp",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\AspProject\\CodeSavvyAsp.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\RASP\\CodeSavvyAsp.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\AspProject\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\RASP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,31 +51,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.SqlServer.Server": {
-              "target": "Package",
-              "version": "[1.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
