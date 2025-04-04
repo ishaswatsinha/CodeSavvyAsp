@@ -1,5 +1,4 @@
 using CodeSavvyAsp.Data;
-using CodeSavvyAsp.net.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
