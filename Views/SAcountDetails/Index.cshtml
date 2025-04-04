@@ -1,1 +1,130 @@
-﻿
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - CodeSavvy</title>
+
+    <!-- Bootstrap CDN for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Overall body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f9f6e6;
+            height: 100vh; /* Full height */
+            position: fixed;
+            padding: 20px;
+        }
+
+            /* Sidebar links */
+            .sidebar a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 5px;
+            }
+
+                /* Active or hovered sidebar links */
+                .sidebar a.active, .sidebar a:hover {
+                    background-color: gold;
+                    border-radius: 5px;
+                }
+
+        /* Main content area (pushed right because of sidebar) */
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        /* Profile & details card styling */
+        .card {
+            background-color: #fffae6;
+            border: none;
+        }
+
+        /* Edit button styling */
+        .edit-btn {
+            background-color: gold;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation Menu -->
+    <div class="sidebar">
+
+        <a asp-controller="SAcountDetails" asp-action="Index" class="active">
+            <i class="fa fa-user"></i> My Profile
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="EnrolledCourses">
+            <i class="fa fa-book"></i> Enrolled Courses
+        </a>
+
+        <a asp-controller="SAcountDetails" asp-action="Wishlisht">
+            <i class="fa fa-heart"></i> Wishlist
+        </a>
+
+        @* <a asp-controller="SAcountDetails" asp-action="Index">Courses</a> *@ 
+       <a asp-controller="SAcountDetails" asp-action="Settings">
+            <i class="fa fa-cog"></i> Settings
+        </a>
+
+        <a asp-controller="Home" asp-action="Index">
+            <i class="fa fa-sign-out-alt"></i> Log Out
+        </a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <h2>My Profile</h2>
+
+        <!-- Profile Card -->
+        <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <!-- User profile picture -->
+                    <img src="/images/Shashwat.jpg" class="rounded-circle" alt="User" height="50px" width="50px">
+                    <strong>Shaswat Sinha</strong>
+                    <p>ssinha617@rku.ac.in</p>
+                </div>
+                <!-- Edit button for profile -->
+                <button class="edit-btn">✏️ Edit</button>
+            </div>
+        </div>
+
+        <!-- Personal Details Card -->
+        <div class="card p-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Personal Details</h5>
+                    <p>First Name: <b>Shashwat</b></p>
+                    <p>Last Name: <b>Sinha</b></p>
+                    <p>Email: ssinha617@rku.ac.in</p>
+                    <p>Phone: (+91) 9876543210</p>
+                </div>
+                <!-- Edit button to navigate to profile edit page -->
+                <a asp-controller="Profile" asp-action="Edit" class="edit-btn">✏️ Edit</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,395 +1,395 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CodeSavvyAsp.bundle.scp.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CodeSavvyAsp.bundle.scp.css",
       "PackagePath": "staticwebassets\\CodeSavvyAsp.sfzjc4q58e.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\1-removebg-preview.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\1-removebg-preview.png",
       "PackagePath": "staticwebassets\\Images\\1-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\6collage.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\6collage.png",
       "PackagePath": "staticwebassets\\Images\\6collage.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\AI.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\AI.jpg",
       "PackagePath": "staticwebassets\\Images\\AI.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\About1.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\About1.jpg",
       "PackagePath": "staticwebassets\\Images\\About1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\About2-removebg-preview.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\About2-removebg-preview.png",
       "PackagePath": "staticwebassets\\Images\\About2-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\C++.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\C++.jpg",
       "PackagePath": "staticwebassets\\Images\\C++.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\Code.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\Code.jpg",
       "PackagePath": "staticwebassets\\Images\\Code.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\Deep.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\Deep.jpg",
       "PackagePath": "staticwebassets\\Images\\Deep.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\Java.webp",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\Java.webp",
       "PackagePath": "staticwebassets\\Images\\Java.webp"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\ResponLogo.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\ResponLogo.png",
       "PackagePath": "staticwebassets\\Images\\ResponLogo.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\Shashwat.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\Shashwat.jpg",
       "PackagePath": "staticwebassets\\Images\\Shashwat.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\Video.mp4",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\Video.mp4",
       "PackagePath": "staticwebassets\\Images\\Video.mp4"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\books.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\books.jpg",
       "PackagePath": "staticwebassets\\Images\\books.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\c#.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\c#.png",
       "PackagePath": "staticwebassets\\Images\\c#.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\calender.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\calender.jpg",
       "PackagePath": "staticwebassets\\Images\\calender.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\cs.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\cs.png",
       "PackagePath": "staticwebassets\\Images\\cs.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\facebook-icon.png.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\facebook-icon.png.png",
       "PackagePath": "staticwebassets\\Images\\facebook-icon.png.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\flexLogo.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\flexLogo.png",
       "PackagePath": "staticwebassets\\Images\\flexLogo.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\footer-bg.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\footer-bg.jpg",
       "PackagePath": "staticwebassets\\Images\\footer-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\hero-bg.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\hero-bg.png",
       "PackagePath": "staticwebassets\\Images\\hero-bg.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\home1-removebg-preview.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\home1-removebg-preview.png",
       "PackagePath": "staticwebassets\\Images\\home1-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\html5-386614_1920.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\html5-386614_1920.jpg",
       "PackagePath": "staticwebassets\\Images\\html5-386614_1920.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\illustration.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\illustration.png",
       "PackagePath": "staticwebassets\\Images\\illustration.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\instagram-icon.png.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\instagram-icon.png.png",
       "PackagePath": "staticwebassets\\Images\\instagram-icon.png.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\leaderlogo.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\leaderlogo.png",
       "PackagePath": "staticwebassets\\Images\\leaderlogo.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\newhtml.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\newhtml.jpg",
       "PackagePath": "staticwebassets\\Images\\newhtml.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\notes.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\notes.jpg",
       "PackagePath": "staticwebassets\\Images\\notes.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\pexels-pixabay-276452.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\pexels-pixabay-276452.jpg",
       "PackagePath": "staticwebassets\\Images\\pexels-pixabay-276452.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\pexels-pixabay-60504.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\pexels-pixabay-60504.jpg",
       "PackagePath": "staticwebassets\\Images\\pexels-pixabay-60504.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\pexels-shottrotter-1309766.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\pexels-shottrotter-1309766.jpg",
       "PackagePath": "staticwebassets\\Images\\pexels-shottrotter-1309766.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\programming-background-collage.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\programming-background-collage.jpg",
       "PackagePath": "staticwebassets\\Images\\programming-background-collage.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\programming-background-with-person-working-with-codes-computer.jpg",
       "PackagePath": "staticwebassets\\Images\\programming-background-with-person-working-with-codes-computer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\rupa.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\rupa.jpg",
       "PackagePath": "staticwebassets\\Images\\rupa.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\solveLogo.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\solveLogo.png",
       "PackagePath": "staticwebassets\\Images\\solveLogo.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\turned-gray-laptop-computer.jpg",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\turned-gray-laptop-computer.jpg",
       "PackagePath": "staticwebassets\\Images\\turned-gray-laptop-computer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\twitter-icon.png.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\twitter-icon.png.png",
       "PackagePath": "staticwebassets\\Images\\twitter-icon.png.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\Images\\youtube-icon.png.png",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\Images\\youtube-icon.png.png",
       "PackagePath": "staticwebassets\\Images\\youtube-icon.png.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\RASP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\shasw\\OneDrive\\Desktop\\project\\CodeSavvyAsp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
