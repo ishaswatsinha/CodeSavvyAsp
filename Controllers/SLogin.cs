@@ -1,17 +1,24 @@
 ﻿using CodeSavvyAsp.Data;
 using CodeSavvyAsp.Models;
+using CodeSavvyAsp.Data;
+using CodeSavvyAsp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-
-namespace CodeSavvyAsp.Controllers
+namespace CodeSavvyAsp.net.Controllers
 {
     public class SLogin : Controller
     {
+
         private readonly AppDbContext _context;
+
+        public SLogin(AppDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Login(string Email, string Password)
         {
             var student = _context.Students.FirstOrDefault(s => s.Email == Email && s.Password == Password);
-
             if (student != null)
             {
                 TempData["SuccessMessage"] = "Login successful!";
@@ -24,7 +31,6 @@ namespace CodeSavvyAsp.Controllers
                 return View();
             }
         }
-
         public IActionResult Signup(Student student)
         {
             if (ModelState.IsValid)
@@ -57,21 +63,19 @@ namespace CodeSavvyAsp.Controllers
         {
             return View();
         }
-
         public IActionResult ChooseNewPassword()
         {
             return View();
         }
-
         public IActionResult ResetComplete()
         {
             return View();
         }
-
         public IActionResult VerifyEmail()
         {
             return View();
         }
+
 
     }
 }

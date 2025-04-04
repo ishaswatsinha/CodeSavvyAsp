@@ -1,0 +1,449 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+
+
+        .hero-section {
+            position: relative;
+            background: url('../../wwwroot/images/About1.jpg') center/cover no-repeat; /* Background image for the hero section */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+        }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                background: url('images/your-background-image.jpg') center/cover no-repeat; /* Background image for the heading text */
+                padding: 10px;
+                display: inline-block;
+            }
+
+            .hero-content p {
+                font-size: 1.2rem;
+            }
+
+        .founding-story {
+            background: #fff;
+        }
+
+            .founding-story p {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #555;
+            }
+
+        .vision-mission {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+
+            .vision-mission h3 {
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+        .stats-section {
+            background-color: #001f3f;
+            color: white;
+            padding: 20px 0;
+        }
+
+            .stats-section .stat {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin: 10px 0;
+            }
+
+        .team-section {
+            background-color: #ffdc00;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+            .team-section h2 {
+                color: #001f3f;
+                margin-bottom: 20px;
+            }
+
+            .team-section p {
+                color: #001f3f;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+        .team-member {
+            margin: 15px 0;
+        }
+
+            .team-member img {
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+        .team-member-center img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .team-member-side img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .team-member h3 {
+            color: #001f3f;
+            margin-top: 10px;
+        }
+
+        .team-member span {
+            color: #001f3f;
+        }
+
+        /* _________________________________- */
+
+
+
+        body {
+            background: linear-gradient(to bottom, 60%, red 40%);
+            font-family: Arial, sans-serif;
+        }
+
+        .video-bg-container {
+            position: relative;
+            width: 100%;
+            height: 60vh; /* Adjust the height */
+        }
+
+            .video-bg-container video {
+                position: absolute;
+                top: -33%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 99vw;
+                height: 99vh;
+                object-fit: cover;
+                z-index: -1; /* Places video behind the content */
+            }
+
+        .overlay {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; /* Ensures the heading is above the video */
+            text-align: center;
+            padding: 0 20px;
+            width: 600px;
+        }
+
+            .overlay h1 {
+                font-size: 2rem; /* Adjusts the font size for readability */
+                margin-bottom: 20px; /* Adds spacing between the heading and paragraph */
+            }
+
+
+            .overlay p {
+                font-size: 1.2rem; /* Adjusts the font size of the paragraph */
+                line-height: 1.5; /* Improves line spacing for readability */
+                max-width: 90%; /* Limits the width to prevent the text from stretching too much */
+                margin: 0 auto; /* Centers the paragraph text */
+            }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: white;
+            z-index: 1; /* Ensures the heading is above the video */
+            position: relative;
+        }
+
+
+        .contact-container {
+            max-width: 600px;
+            background: #0a0e15;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-header {
+            text-align: center;
+            font-size: 28px;
+            color: #f1c40f;
+            font-style: italic;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .contact-subtext {
+            text-align: center;
+            color: #d3d3d3;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .form-group input {
+                width: 48%;
+            }
+
+        .btn-submit {
+            background: #00d26a;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .btn-submit:hover {
+                background: #00b359;
+            }
+    </style>
+</head>
+<body>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="video-bg-container">
+                <video autoplay loop muted>
+                    <source src="~/images/Video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay">
+                    <h1>Driving Innovation in Online Education for a Brighter Future</h1>
+                    <p>
+                        Studynotion is at the forefront of driving innovation in online education. We're passionate about creating a brighter future by offering cutting-edge courses, leveraging emerging technologies, and nurturing a vibrant learning community.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="founding-story py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2><span style="color: #C70039; font-style: italic;">Our Founding Story</span></h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>Our e-learning platform was born out of a shared vision and passion for transforming education. It all began with a group of educators, technologists, and lifelong learners who recognized the need for accessible, flexible, and high-quality learning opportunities in a rapidly evolving digital world.</p>
+                    <p>As experienced educators ourselves, we witnessed firsthand the limitations and challenges of traditional education systems. We believed that education should not be confined to the walls of a classroom or restricted by geographical boundaries. We envisioned a platform that could bridge these gaps and empower individuals from all walks of life to unlock their full potential.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="/images/About2-removebg-preview.png" class="img-fluid" alt="Founding Story Image"> <!-- Founding Story Image -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vision-mission py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="color: #D35400; font-style: italic;">Our Vision</h3>
+                    <p>With this vision in mind, we set out on a journey to create an e-learning platform that would revolutionize the way people learn. Our team of dedicated experts worked tirelessly to develop a robust and intuitive platform that combines cutting-edge technology with engaging content, fostering a dynamic and interactive learning experience.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 style="color: #2980B9; font-style: italic;">Our Mission</h3>
+                    <p>Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3 stat">5K+ Happy Students</div>
+                <div class="col-md-3 stat">10+ Mentors</div>
+                <div class="col-md-3 stat">200+ Courses</div>
+                <div class="col-md-3 stat">50+ Awards</div>
+            </div>
+        </div>
+    </section>
+    <!--Founder part-->
+    <div style="background-color: #f1c40f; padding: 50px; text-align: center;">
+
+        <!-- Team Title -->
+        <button style="background-color: white; border: none; padding: 10px 20px; border-radius: 20px; font-weight: bold; cursor: pointer;">
+            OUR TEAM
+        </button>
+        <h2 style="font-style: italic; font-size: 28px; margin-top: 10px;">
+            We have experienced Team
+        </h2>
+
+        <!-- Team Members Section -->
+        <div style="display: flex; justify-content: center; align-items: center; gap: 150px; margin-top: 50px;">
+
+            <!-- Member 1 -->
+            <div style="text-align: center;">
+                <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 5px solid white; margin: auto;">
+                    <img src="/images/Deep.jpg" alt="Divyanshu Raj Verma" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-family: cursive; margin-top: 30px;">Divyanshu Raj Verma</h3>
+                <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                    Co-Founder
+                </button>
+            </div>
+
+            <!-- Member 2 (Founder - Center) -->
+            <div style="text-align: center;">
+                <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 8px solid white; margin: auto;">
+                    <img src="~/images/Shashwat.jpg" alt="Shaswat Sinha" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-family: cursive; font-size: 26px; margin-top: 30px;">Shaswat Sinha</h3>
+                <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                    Founder
+                </button>
+            </div>
+
+            <!-- Member 3 -->
+            <div style="text-align: center;">
+                <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 5px solid white; margin: auto;">
+                    <img src="~/images/rupa.jpg" alt="Rupa Kumari" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <h3 style="font-family: cursive; margin-top: 30px;">Rupa Kumari</h3>
+                <button style="background-color: black; color: white; border: none; padding: 12px 24px; border-radius: 15px; margin-top: 15px;">
+                    Co-Founder
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <!--founder part end-->
+
+
+
+
+
+
+    <div class="container">
+        <h2 class="contact-header">Get in Touch</h2>
+        <p class="contact-subtext">We'd love to hear from you. Please fill out this form.</p>
+
+        <div class="contact-container">
+            <form>
+                <label class="text-white">Enter Your Name</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter first name">
+                    <input type="text" class="form-control" placeholder="Enter last name">
+                </div>
+
+                <label class="text-white">Email Address</label>
+                <input type="email" class="form-control" placeholder="Enter email address">
+
+                <label class="text-white">Phone Number</label>
+                <div class="form-group">
+                    <select class="form-control" style="width: 20%;">
+                        <option>+91</option>
+                        <option>+1</option>
+                        <option>+44</option>
+                    </select>
+                    <input type="text" class="form-control" placeholder="Enter your phone number">
+                </div>
+
+                <label class="text-white">Message</label>
+                <textarea class="form-control" placeholder="Enter your message" rows="3"></textarea>
+
+                <button type="submit" class="btn-submit mt-3">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- yaha abhi review add krna hai -->
+    <!-- Reviews Section -->
+    <div class="reviews-section text-center mt-5">
+        <h5><em>Reviews from other learners</em></h5>
+        <div class="row mt-4">
+            <!-- Review 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card text-white bg-dark shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title">⭐ Cody Fisher</h6>
+                        <p class="card-text">Completely an effective improvement in coding !</p>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card text-white bg-dark shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title">⭐ Esther Howard</h6>
+                        <p class="card-text">Everything is top class. A great learning experience!</p>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card text-white bg-dark shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title">⭐ Eleanor Pena</h6>
+                        <p class="card-text">Helped me boost my skills and land a better job!</p>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
