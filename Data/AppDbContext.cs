@@ -8,5 +8,9 @@ namespace CodeSavvyAsp.Data
 
 
         public DbSet<Student> Students { get; set; }
+
+
+        //for the instructor
+        public DbSet<Instructor> Instructors { get; set; }
     }
 }

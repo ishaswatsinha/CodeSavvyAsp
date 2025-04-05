@@ -48,12 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvckxvZ2luXEZvcmdvdFBhc3NJbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/Desktop/AspProject/Views/InstructorLogin/InstructorIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvckxvZ2luXEluc3RydWN0b3JJbmRleC5jc2h0bWw=
+[C:/Users/DELL/Desktop/AspProject/Views/InstructorLogin/ILogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvckxvZ2luXElMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/InstructorLogin/ISignup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvckxvZ2luXElTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/InstructorLogin/VerifyPhone.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvckxvZ2luXFZlcmlmeVBob25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/Instructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/SAcountDetails/EnrolledCourses.cshtml]
@@ -82,6 +90,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL/Desktop/AspProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/SLogin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0xvZ2luXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/SLogin/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0xvZ2luXFNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/_ViewImports.cshtml]
