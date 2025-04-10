@@ -7,9 +7,9 @@ namespace CodeSavvyAsp.Controllers
 {
     public class SLogin : Controller
     {
+
         private readonly AppDbContext _context;
 
-        //Student login ke liye
         public SLogin(AppDbContext context)
         {
             _context = context;
@@ -27,7 +27,6 @@ namespace CodeSavvyAsp.Controllers
         public IActionResult Login(string Email, string Password)
         {
             var student = _context.Students.FirstOrDefault(s => s.Email == Email && s.Password == Password);
-
             if (student != null)
             {
                 HttpContext.Session.SetString("StudentEmail", student.Email);
@@ -35,7 +34,7 @@ namespace CodeSavvyAsp.Controllers
 
 
                 TempData["SuccessMessage"] = "Login successful!";
-                return RedirectToAction("Index", "SAcountDetails");
+                return RedirectToAction("Index", "SAccountDetails");
             }
 
             else
@@ -52,6 +51,7 @@ namespace CodeSavvyAsp.Controllers
         }
 
         [HttpPost]
+
         public IActionResult Signup(Student student)
         {
             if (ModelState.IsValid)
@@ -84,21 +84,19 @@ namespace CodeSavvyAsp.Controllers
         {
             return View();
         }
-
         public IActionResult ChooseNewPassword()
         {
             return View();
         }
-
         public IActionResult ResetComplete()
         {
             return View();
         }
-
         public IActionResult VerifyEmail()
         {
             return View();
         }
+
 
         public IActionResult Logout()
         {

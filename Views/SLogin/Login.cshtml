@@ -5,7 +5,7 @@
 
 <div style="background:black; min-height: 100vh; display: flex; justify-content: center; align-items: center; gap: 50px; padding: 50px 0;">
     <!-- Form -->
-    <form asp-action="Login" asp-controller="Slogin" method="post"
+    <form asp-action="Login" asp-controller="SLogin" method="post"
           style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);">
 
         @Html.AntiForgeryToken() <!-- ✅ CSRF Protection -->
@@ -33,7 +33,7 @@
 
         <!-- Forgot Password Link -->
         <div style="text-align: right; font-size: 14px; margin-bottom: 10px;">
-            <a href="@Url.Action("Forgot", "Slogin")" style="color: #ffcc00; cursor: pointer; text-decoration: none; font-weight: bold;">Forgot Password?</a>
+            <a href="@Url.Action("Forgot", "SLogin")" style="color: #ffcc00; cursor: pointer; text-decoration: none; font-weight: bold;">Forgot Password?</a>
         </div>
 
         <!-- Login Button -->
@@ -45,7 +45,7 @@
         <!-- Sign-up Redirect -->
         <div style="text-align: center; margin-top: 10px; font-size: 14px;">
             <span>Don't have an account? </span>
-            <a href="@Url.Action("Signup", "Slogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Sign up</a>
+            <a href="@Url.Action("Signup", "SLogin")" style="color: #ffcc00; text-decoration: none; font-weight: bold;">Sign up</a>
         </div>
     </form>
 

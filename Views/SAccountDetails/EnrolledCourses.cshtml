@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Enrolled Courses";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2 class="mb-4">Enrolled Courses</h2>
+
+<!-- Filter Tabs -->
+<div class="filter-tabs mb-3">
+    <button class="filter-btn active btn btn-link" data-filter="all">All</button>
+    <button class="filter-btn btn btn-link" data-filter="pending">Pending</button>
+    <button class="filter-btn btn btn-link" data-filter="completed">Completed</button>
+</div>
+
+<!-- Course List -->
+<div class="course-list bg-light p-3 rounded" id="courseList">
+    <div class="course-item d-flex align-items-center justify-content-between border-bottom py-2" data-status="pending">
+        <img src="https://via.placeholder.com/50" class="me-3 rounded" alt="Course">
+        <div class="course-details flex-grow-1">
+            <b>The Complete Python</b>
+            <p class="mb-1">Short Description</p>
+        </div>
+        <span class="me-3">2hr 30 mins</span>
+        <div class="progress-bar me-3" style="width: 150px; height: 8px; background: #ddd; border-radius: 4px;">
+            <div class="progress" style="width: 60%; background: blue; height: 100%; border-radius: 4px;"></div>
+        </div>
+        <div class="dropdown">
+            <span class="options dropdown-toggle" data-bs-toggle="dropdown" role="button">⋮</span>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
+                <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="course-item d-flex align-items-center justify-content-between border-bottom py-2" data-status="pending">
+        <img src="https://via.placeholder.com/50" class="me-3 rounded" alt="Course">
+        <div class="course-details flex-grow-1">
+            <b>JavaScript Essentials</b>
+            <p class="mb-1">Short Description</p>
+        </div>
+        <span class="me-3">3hr 10 mins</span>
+        <div class="progress-bar me-3" style="width: 150px; height: 8px; background: #ddd; border-radius: 4px;">
+            <div class="progress" style="width: 20%; background: blue; height: 100%; border-radius: 4px;"></div>
+        </div>
+        <div class="dropdown">
+            <span class="options dropdown-toggle" data-bs-toggle="dropdown" role="button">⋮</span>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
+                <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Filter Courses
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+
+                const filter = this.getAttribute('data-filter');
+                document.querySelectorAll('.course-item').forEach(course => {
+                    const status = course.getAttribute('data-status');
+                    course.style.display = (filter === 'all' || filter === status) ? 'flex' : 'none';
+                });
+            });
+        });
+
+        // Mark as Completed
+        document.querySelectorAll('.mark-completed').forEach(button => {
+            button.addEventListener('click', function (e) {
+                e.preventDefault();
+                const course = this.closest('.course-item');
+                course.setAttribute('data-status', 'completed');
+                const progress = course.querySelector('.progress');
+                progress.style.width = '100%';
+                progress.style.backgroundColor = 'green';
+            });
+        });
+
+        // Remove Course
+        document.querySelectorAll('.remove-course').forEach(button => {
+            button.addEventListener('click', function (e) {
+                e.preventDefault();
+                const course = this.closest('.course-item');
+                course.remove();
+            });
+        });
+    </script>
+}
