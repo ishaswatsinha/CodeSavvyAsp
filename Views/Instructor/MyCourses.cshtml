@@ -1,8 +1,33 @@
-﻿
+﻿@model List<InstructorCourse>
+
 @{
     ViewData["Title"] = "MyCourses";
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
 
-<h1>MyCourses</h1>
+<a href="@Url.Action("AddCourse")" class="btn btn-primary mb-3">Add New Course</a>
 
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Duration</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.Title</td>
+                <td>@course.Duration</td>
+                <td>@course.Price</td>
+                <td>
+                    <a href="@Url.Action("EditCourse", new { id = course.Id })" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="@Url.Action("DeleteCourse", new { id = course.Id })" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

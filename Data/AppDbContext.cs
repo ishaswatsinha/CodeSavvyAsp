@@ -12,5 +12,8 @@ namespace CodeSavvyAsp.Data
 
         //for the instructor
         public DbSet<Instructor> Instructors { get; set; }
+
+        public DbSet<InstructorCourse> InstructorCourses { get; set; }
+
     }
 }
