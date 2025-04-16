@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Purchase Confirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="text-align: center; padding: 40px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h1 style="color: #28a745; font-size: 36px;">🎉 Purchase Successful!</h1>
+    <p style="font-size: 18px; color: #333;">You have successfully purchased the course.</p>
+
+    <!-- Highlight Course ID -->
+    <p style="font-size: 18px; color: #555; font-weight: bold; background-color: #f1f1f1; padding: 10px; border-radius: 5px;">
+        <strong>Course ID:</strong> @ViewBag.CourseId
+    </p>
+
+    <div style="margin-top: 30px;">
+        <!-- Button Styling with Hover Effect -->
+        <a href="/SAccountDetails/Index"
+           style="text-decoration: none; background-color: #007bff; color: white; padding: 12px 25px; border-radius: 5px; font-size: 18px; margin-right: 15px; display: inline-block; transition: background-color 0.3s;">
+            Go to Dashboard
+        </a>
+        <a href="/"
+           style="text-decoration: none; background-color: #6c757d; color: white; padding: 12px 25px; border-radius: 5px; font-size: 18px; display: inline-block; transition: background-color 0.3s;">
+            Back to Home
+        </a>
+    </div>
+</div>

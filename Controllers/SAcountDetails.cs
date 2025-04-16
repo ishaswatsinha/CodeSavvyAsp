@@ -112,7 +112,7 @@ namespace CodeSavvyAsp.Controllers
             return View();
         }
 
-        public IActionResult Wishlist()
+        public IActionResult Wishlisht()
         {
             return View();
         }

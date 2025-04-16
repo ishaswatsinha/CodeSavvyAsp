@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "CourseDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Course Details</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Bootcamp</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8;">
+
+    <div style="width: 80%; margin: auto; background-color: white; padding: 20px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+        <h2 style="color: #333;">The Complete Python Bootcamp From Zero to Hero in Python</h2>
+        <p style="color: #555;">This Python for beginners course will help you to become Zero to Hero. Learn Python Programming in an Easy Way.</p>
+        <p><strong>Rating:</strong> ⭐⭐⭐⭐☆ (650 ratings) | 332,402 students</p>
+        <p><strong>Created by:</strong> Instructor Name</p>
+        <p><strong>Created at:</strong> 02/2020 | <strong>Language:</strong> English</p>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div style="flex: 1;">
+                <h3 style="background-color: #0073e6; color: white; padding: 10px;">What you'll learn</h3>
+                <ul>
+                    <li>Introduction to Python and Python 3</li>
+                    <li>Understand the basics: Data types, Loops, Conditional statements, Functions and Modules</li>
+                    <li>Learn object-oriented programming in Python</li>
+                    <li>Learn how to make your own web-scraping tool using Python</li>
+                    <li>Know how to Read and Parse JSON and XML files</li>
+                </ul>
+            </div>
+            <div style="flex: 1; margin-left: 20px; text-align: center;">
+                <h3 style="background-color: #0073e6; color: white; padding: 10px;">Course Purchase</h3>
+                <img src="/images/programming-background-with-person-working-with-codes-computer.jpg" alt="Course Image" style="width: 100%; max-height: 200px; object-fit: cover; margin-bottom: 10px;">
+                <h2 style="margin: 0;">Rs. 1,200</h2>
+
+                <!-- Add to Cart Form -->
+                <form method="post" action="@Url.Action("Wishlisht", "SAcountDetails")">
+
+                    <input type="hidden" name="courseId" value="1" />
+                    <button type="submit" style="width: 100%; padding: 10px; margin: 10px 0; background: #ffc107; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">
+                        Add to Wishlist
+                    </button>
+                </form>
+
+
+                <!-- Buy Now Form -->
+                <form method="post" action="@Url.Action("BuyNow", "Checkout")">
+                    <input type="hidden" name="courseId" value="1" />
+                    <button type="submit" style="width: 100%; padding: 10px; background: #212529; color: white; border: none; cursor: pointer; font-size: 16px;">
+                        Buy now
+                    </button>
+                </form>
+
+                <p style="color: gray; font-size: 12px;">30-Day Money-Back Guarantee</p>
+                <div style="text-align: left; font-size: 14px;">
+                    <p>✅ 8 hours on-demand video</p>
+                    <p>🔗 Full Lifetime access</p>
+                    <p>📱 Access on Mobile and TV</p>
+                    <p>📜 Certificate of completion</p>
+                </div>
+                <p style="color: #007bff; cursor: pointer;">Share</p>
+            </div>
+        </div>
+
+        <h3 style="background-color: #0073e6; color: white; padding: 10px;">Course Content</h3>
+        <p>10 sections • 41 lectures • 7h 57m total length</p>
+        <h4>Introduction & Basics (5 lectures - 15min)</h4>
+        <ul>
+            <li>Why Python (2:09)</li>
+            <li>How to install Python and Sublime Text (2:09)</li>
+            <li>Variable Declaration and Memory Allocation (2:09)</li>
+            <li>Built-in Python Datatypes (2:09)</li>
+            <li>Python Operators (2:09)</li>
+        </ul>
+
+        <h4>Other Sections</h4>
+        <ul>
+            <li>Conditional Statements and Loops (5 lectures - 15min)</li>
+            <li>Python Data Types - String, Lists, Tuple, Dictionaries (5 lectures - 15min)</li>
+            <li>Python Functions (5 lectures - 15min)</li>
+            <li>Python Modules and Packages (5 lectures - 15min)</li>
+        </ul>
+
+        <h3 style="background-color: #0073e6; color: white; padding: 10px;">Author</h3>
+        <p><strong>Shaswat Sinha</strong></p>
+        <p>I will be your lead trainer in this course. Within no time, I will help you to understand the subject in an easy manner.</p>
+    </div>
+
+</body>
+</html>

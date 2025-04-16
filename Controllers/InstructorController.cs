@@ -165,7 +165,7 @@ namespace CodeSavvyAsp.Controllers
 
         // ✅ Edit Instructor Profile by ID (admin use or deep link)
         [HttpGet]
-        public IActionResult EditById(int id)
+        public IActionResult Edit(int id)
         {
             var instructor = _context.Instructors
                 .FirstOrDefault(i => i.Id == id);
