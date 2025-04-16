@@ -39,48 +39,43 @@ namespace CodeSavvyAsp.Controllers
             return View(instructor);
         }
 
-        // ✅ My Courses: Show a list of courses taught by the logged-in instructor
+
+
         public IActionResult MyCourses()
         {
+            // ✅ Check if instructor is logged in
             var email = HttpContext.Session.GetString("InstructorEmail");
-            var instructor = _context.Instructors
-                .FirstOrDefault(i => i.Email == email);
 
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            // ✅ Fetch the instructor details based on email
+            var instructor = _context.Instructors.FirstOrDefault(i => i.Email == email);
             if (instructor == null)
             {
                 return RedirectToAction("ILogin", "InstructorLogin");
             }
 
-            // Retrieve the courses associated with this instructor
+            // ✅ Fetch only courses related to this instructor
             var courses = _context.InstructorCourses
-                .Where(c => c.InstructorId == instructor.Id)
+                .Where(c => c.InstructorId == instructor.Id)  // Filter courses by InstructorId
                 .ToList();
+
+
 
             return View(courses);
         }
 
-        // GET: Add New Course
-        
+
+
+        // ✅ GET: Load Add Course Page
         public IActionResult AddCourse()
-        {
-            return View();
-        }
-
-
-
-
-
-
-
-
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult AddCourse(InstructorCourse course)
         {
             var email = HttpContext.Session.GetString("InstructorEmail");
 
-            if (string.IsNullOrEmpty(email))
+            if (string.IsNullOrWhiteSpace(email))
             {
                 return RedirectToAction("ILogin", "InstructorLogin");
             }
@@ -88,56 +83,59 @@ namespace CodeSavvyAsp.Controllers
             var instructor = _context.Instructors.FirstOrDefault(i => i.Email == email);
             if (instructor == null)
             {
+                TempData["ErrorMessage"] = "Instructor not found. Please log in again.";
                 return RedirectToAction("ILogin", "InstructorLogin");
             }
 
-            // No InstructorId assignment required since it's removed from the model
-            // course.InstructorId = instructor.Id;  <-- Remove this line
+            // ✅ Pass Instructor Info to View
+            ViewData["InstructorId"] = instructor.Id;  // Ensure InstructorId is available
+            ViewData["InstructorEmail"] = email;
+
+            return View();
+        }
+
+        // ✅ POST: Save Course Data
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddCourse(InstructorCourse course)
+        {
+            var email = HttpContext.Session.GetString("InstructorEmail");
+
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                TempData["ErrorMessage"] = "Session expired. Please log in again.";
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            var instructor = _context.Instructors.FirstOrDefault(i => i.Email == email);
+            if (instructor == null)
+            {
+                TempData["ErrorMessage"] = "Instructor not found. Please log in again.";
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
 
             if (ModelState.IsValid)
             {
+                course.InstructorId = instructor.Id;  // ✅ Assign InstructorId correctly
+
                 _context.InstructorCourses.Add(course);
                 _context.SaveChanges();
 
+                Console.WriteLine("✅ Course Added Successfully! Title: " + course.Title);
+                Console.WriteLine("Redirecting to MyCourses...");
+
                 TempData["SuccessMessage"] = "Course added successfully!";
-                return RedirectToAction("MyCourses");
+                return RedirectToAction("MyCourses");  // ✅ Ensure proper redirection
             }
 
-            // Debugging validation errors
-            foreach (var entry in ModelState)
-            {
-                var key = entry.Key;
-                var errors = entry.Value.Errors;
+            TempData["ErrorMessage"] = "Invalid data, please check and try again.";
 
-                foreach (var error in errors)
-                {
-                    Console.WriteLine($"[Model Error] Field: {key} - Error: {error.ErrorMessage}");
-                }
-            }
+            // ✅ Ensure InstructorId is passed again if validation fails
+            ViewData["InstructorId"] = instructor.Id;
+            ViewData["InstructorEmail"] = email;
 
-            TempData["ErrorMessage"] = "Please fix the errors in the form.";
-            return View(course);
+            return View(course);  // 🚫 If validation fails, it stays on the same page
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
