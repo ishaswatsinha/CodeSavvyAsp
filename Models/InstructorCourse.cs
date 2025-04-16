@@ -29,6 +29,7 @@ namespace CodeSavvyAsp.Models
         public int InstructorId { get; set; }
 
         // Navigation property for the related Instructor
-        public Instructor Instructor { get; set; }
+        public Instructor? Instructor { get; set; } // 👈 make it nullable
+
     }
 }

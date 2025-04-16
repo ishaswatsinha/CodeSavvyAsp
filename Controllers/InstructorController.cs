@@ -99,6 +99,8 @@ namespace CodeSavvyAsp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult AddCourse(InstructorCourse course)
         {
+            Console.WriteLine("DEBUG: InstructorId received = " + course.InstructorId);
+
             var email = HttpContext.Session.GetString("InstructorEmail");
 
             if (string.IsNullOrWhiteSpace(email))
@@ -114,27 +116,27 @@ namespace CodeSavvyAsp.Controllers
                 return RedirectToAction("ILogin", "InstructorLogin");
             }
 
+            Console.WriteLine("DEBUG - Received InstructorId: " + course.InstructorId);
+
+            ModelState.Remove("Instructor"); // remove nav property validation
+
             if (ModelState.IsValid)
             {
-                course.InstructorId = instructor.Id;  // ✅ Assign InstructorId correctly
+                course.InstructorId = instructor.Id;
 
                 _context.InstructorCourses.Add(course);
                 _context.SaveChanges();
 
-                Console.WriteLine("✅ Course Added Successfully! Title: " + course.Title);
-                Console.WriteLine("Redirecting to MyCourses...");
-
                 TempData["SuccessMessage"] = "Course added successfully!";
-                return RedirectToAction("MyCourses");  // ✅ Ensure proper redirection
+                return RedirectToAction("MyCourses");
             }
 
             TempData["ErrorMessage"] = "Invalid data, please check and try again.";
 
-            // ✅ Ensure InstructorId is passed again if validation fails
             ViewData["InstructorId"] = instructor.Id;
             ViewData["InstructorEmail"] = email;
 
-            return View(course);  // 🚫 If validation fails, it stays on the same page
+            return View(course);
         }
 
 
