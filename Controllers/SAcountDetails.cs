@@ -65,7 +65,6 @@ namespace CodeSavvyAsp.Controllers
             if (string.IsNullOrEmpty(sessionEmail))
                 return RedirectToAction("Login", "SLogin");
 
-            // Validate Model (except Password now)
             ModelState.Remove("Password"); // 👈 Skip password validation
             if (!ModelState.IsValid)
             {
@@ -86,7 +85,6 @@ namespace CodeSavvyAsp.Controllers
             student.PhoneNumber = updatedStudent.PhoneNumber;
             student.CountryCode = updatedStudent.CountryCode;
 
-            // 👇 Only update password if user entered a new one
             if (!string.IsNullOrEmpty(updatedStudent.Password))
             {
                 student.Password = updatedStudent.Password;
@@ -107,10 +105,28 @@ namespace CodeSavvyAsp.Controllers
             return View();
         }
 
-        public IActionResult EnrolledCourses()
+        // ✅ Updated EnrolledCourses Method
+        public async Task<IActionResult> EnrolledCourses()
         {
-            return View();
+            var email = GetLoggedInEmail();
+            if (string.IsNullOrEmpty(email))
+                return RedirectToAction("Login", "SLogin");
+
+            var student = await _context.Students.FirstOrDefaultAsync(s => s.Email == email);
+            if (student == null)
+            {
+                TempData["ErrorMessage"] = "Student not found.";
+                return RedirectToAction("Login", "SLogin");
+            }
+
+            var enrolledCourses = await _context.EnrolledCourses
+                                                .Where(e => e.StudentId == student.Id)
+                                                .Include(e => e.Course)
+                                                .ToListAsync(); // ✅ Async version for better performance
+
+            return View(enrolledCourses);
         }
+
 
         public IActionResult Wishlisht()
         {

@@ -48,6 +48,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();           // Routing first
+app.UseSession();
+app.UseAuthentication();
 app.UseAuthentication();    //  Then Authentication
 app.UseSession();           //  Now Session is in right place
 app.UseAuthorization();     //  Then Authorization

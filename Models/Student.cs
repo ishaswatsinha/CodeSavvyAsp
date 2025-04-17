@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic; // ✅ Added for ICollection
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -26,11 +27,13 @@ namespace CodeSavvyAsp.Models
         [Phone(ErrorMessage = "Invalid phone number")]
         public string PhoneNumber { get; set; }
 
-        // ❌ [Required] removed to make it optional
         [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Country Code is required")]
         public string CountryCode { get; set; }
+
+        // ✅ Navigation Property (Minimal Change)
+        public ICollection<EnrolledCourse> EnrolledCourses { get; set; } = new List<EnrolledCourse>();
     }
 }

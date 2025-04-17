@@ -31,10 +31,11 @@ namespace CodeSavvyAsp.Controllers
             {
                 HttpContext.Session.SetString("StudentEmail", student.Email);
                 HttpContext.Session.SetString("StudentName", student.FirstName);
+                HttpContext.Session.SetString("IsLoggedIn", "true"); // ✅ Session 
 
 
                 TempData["SuccessMessage"] = "Login successful!";
-                return RedirectToAction("Index", "SAccountDetails");
+                return RedirectToAction("CourseDetails", "Courses");
             }
 
             else

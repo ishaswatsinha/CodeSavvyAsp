@@ -1,17 +1,37 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using CodeSavvyAsp.Data;
+using CodeSavvyAsp.Models;
+using System.Linq;
 
 namespace CodeSavvyAsp.Controllers
 {
     public class CoursesController : Controller
     {
-        public IActionResult Course()
+        private readonly AppDbContext _context;
+
+        public CoursesController(AppDbContext context)
         {
-            return View();
+            _context = context;
         }
 
-        public IActionResult CourseDetails()
+        public IActionResult Course()
         {
-            return View();
+            var courses = _context.Courses.ToList(); // ✅ Database se courses fetch karo
+            return View(courses);
+        }
+
+        public IActionResult CourseDetails(int id)
+        {
+            var course = _context.Courses.FirstOrDefault(c => c.Id == id);
+
+            if (course == null)
+            {
+                TempData["ErrorMessage"] = "Course not found!";
+                return RedirectToAction("ErrorPage");
+            }
+
+            return View(course); // ✅ Direct course details page pe bhej raha hai, login ka check hata diya!
         }
 
     }

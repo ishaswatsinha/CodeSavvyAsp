@@ -209,5 +209,68 @@ namespace CodeSavvyAsp.Controllers
 
             return View(updatedInstructor);
         }
+
+
+
+
+        // ✅ GET: Confirm Delete Course
+        [HttpGet]
+        public IActionResult DeleteCourse(int id)
+        {
+            var email = HttpContext.Session.GetString("InstructorEmail");
+
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            var instructor = _context.Instructors.FirstOrDefault(i => i.Email == email);
+            if (instructor == null)
+            {
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            var course = _context.InstructorCourses.FirstOrDefault(c => c.Id == id && c.InstructorId == instructor.Id);
+            if (course == null)
+            {
+                TempData["ErrorMessage"] = "Course not found or access denied.";
+                return RedirectToAction("MyCourses");
+            }
+
+            return View(course);
+        }
+
+        // ✅ POST: Delete Course Action
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteCourseConfirmed(int id)
+        {
+            var email = HttpContext.Session.GetString("InstructorEmail");
+
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            var instructor = _context.Instructors.FirstOrDefault(i => i.Email == email);
+            if (instructor == null)
+            {
+                return RedirectToAction("ILogin", "InstructorLogin");
+            }
+
+            var course = _context.InstructorCourses.FirstOrDefault(c => c.Id == id && c.InstructorId == instructor.Id);
+            if (course == null)
+            {
+                TempData["ErrorMessage"] = "Course not found or access denied.";
+                return RedirectToAction("MyCourses");
+            }
+
+            _context.InstructorCourses.Remove(course);
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Course deleted successfully!";
+            return RedirectToAction("MyCourses");
+        }
+
     }
 }
