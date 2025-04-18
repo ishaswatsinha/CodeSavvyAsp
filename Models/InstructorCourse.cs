@@ -24,6 +24,8 @@ namespace CodeSavvyAsp.Models
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a positive value.")]
         public decimal Price { get; set; }
 
+      
+
         // Adding InstructorId for database mapping
         [ForeignKey("Instructor")]
         public int InstructorId { get; set; }

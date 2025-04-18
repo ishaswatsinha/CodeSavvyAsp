@@ -1,0 +1,21 @@
+﻿@model IEnumerable<CodeSavvyAsp.Models.InstructorCourse>
+
+@{
+    ViewData["Title"] = "BuyNow";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h1>Available courses</h1>
+
+
+@foreach (var course in Model)
+{
+    <div class="course-card">
+        <h3>@course.Title</h3>
+        <p>@course.Description</p>
+        <p><strong>Duration:</strong> @course.Duration</p>
+        <p><strong>Price:</strong> ₹@course.Price</p>
+        <button>Purchase</button>
+    </div>
+}
+

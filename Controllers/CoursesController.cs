@@ -28,7 +28,7 @@ namespace CodeSavvyAsp.Controllers
             if (course == null)
             {
                 TempData["ErrorMessage"] = "Course not found!";
-                return RedirectToAction("ErrorPage");
+                return RedirectToAction("Index","SAcountDetails");
             }
 
             return View(course); // ✅ Direct course details page pe bhej raha hai, login ka check hata diya!

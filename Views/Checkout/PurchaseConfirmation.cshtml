@@ -4,20 +4,16 @@
 }
 
 <h1 style="text-align: center; color: #28a745;">✅ Purchase Successful!</h1>
-<p style="text-align: center; font-size: 18px;">You have successfully enrolled in:</p>
+<p style="text-align: center; font-size: 18px;">You have successfully enrolled in Web Development</p>
 
 @if (!string.IsNullOrEmpty(ViewBag.CourseName))
 {
     <p style="text-align: center; font-size: 22px; color: #007bff; font-weight: bold;">📘 @ViewBag.CourseName</p>
 }
-else
-{
-    <p style="text-align: center; font-size: 20px; color: red;">⚠ Course name not found! Contact support.</p>
-}
 
 <!-- ✅ Navigation Buttons -->
 <div style="text-align: center; margin-top: 30px;">
     <a href="@Url.Action("Index", "SAccountDetails")" class="btn btn-primary">Go to Dashboard</a>
-<a href="@Url.Action("Course", "Courses")" class="btn btn-primary">Go to Course Details</a>  
+<a href="@Url.Action("Login", "SLogin")" class="btn btn-primary">Go and check</a>  
 <a href="@Url.Action("Index", "Home")" class="btn btn-dark">Back to Home</a>
 </div>

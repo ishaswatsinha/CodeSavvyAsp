@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CodeSavvyAsp.Controllers
 {
@@ -21,6 +22,7 @@ namespace CodeSavvyAsp.Controllers
             return HttpContext.Session.GetString("StudentEmail");
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             var email = GetLoggedInEmail();
@@ -65,7 +67,7 @@ namespace CodeSavvyAsp.Controllers
             if (string.IsNullOrEmpty(sessionEmail))
                 return RedirectToAction("Login", "SLogin");
 
-            ModelState.Remove("Password"); // 👈 Skip password validation
+            ModelState.Remove("Password"); // ✅ Skip password validation
             if (!ModelState.IsValid)
             {
                 TempData["ErrorMessage"] = "⚠ Please fix the validation errors.";
@@ -100,12 +102,6 @@ namespace CodeSavvyAsp.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Settings()
-        {
-            return View();
-        }
-
-        // ✅ Updated EnrolledCourses Method
         public async Task<IActionResult> EnrolledCourses()
         {
             var email = GetLoggedInEmail();
@@ -127,16 +123,20 @@ namespace CodeSavvyAsp.Controllers
             return View(enrolledCourses);
         }
 
-
-        public IActionResult Wishlisht()
-        {
-            return View();
-        }
-
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "SLogin");
         }
+    
+
+
+    public IActionResult BuyNow()
+
+        {
+            var courses = _context.InstructorCourses.ToList();//fetch all course by instructor
+            return View(courses);//pass course to view
+        }
+
     }
 }

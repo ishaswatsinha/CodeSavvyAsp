@@ -2,12 +2,10 @@
 using CodeSavvyAsp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace CodeSavvyAsp.Controllers
 {
     public class SLogin : Controller
     {
-
         private readonly AppDbContext _context;
 
         public SLogin(AppDbContext context)
@@ -15,13 +13,11 @@ namespace CodeSavvyAsp.Controllers
             _context = context;
         }
 
-
         [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
-
 
         [HttpPost]
         public IActionResult Login(string Email, string Password)
@@ -29,15 +25,15 @@ namespace CodeSavvyAsp.Controllers
             var student = _context.Students.FirstOrDefault(s => s.Email == Email && s.Password == Password);
             if (student != null)
             {
+                // ✅ Session Set Ho Raha Hai
                 HttpContext.Session.SetString("StudentEmail", student.Email);
                 HttpContext.Session.SetString("StudentName", student.FirstName);
-                HttpContext.Session.SetString("IsLoggedIn", "true"); // ✅ Session 
-
 
                 TempData["SuccessMessage"] = "Login successful!";
-                return RedirectToAction("CourseDetails", "Courses");
-            }
 
+                // ✅ Redirect to SAccountDetails Controller
+                return RedirectToAction("Index", "SAccountDetails");
+            }
             else
             {
                 ViewBag.ErrorMessage = "Invalid email or password";
@@ -52,7 +48,6 @@ namespace CodeSavvyAsp.Controllers
         }
 
         [HttpPost]
-
         public IActionResult Signup(Student student)
         {
             if (ModelState.IsValid)
@@ -60,10 +55,10 @@ namespace CodeSavvyAsp.Controllers
                 _context.Students.Add(student);
                 int rowsAffected = _context.SaveChanges();
 
-                Console.WriteLine("Rows inserted" + rowsAffected);
+                Console.WriteLine("Rows inserted: " + rowsAffected);
                 if (rowsAffected > 0)
                 {
-                    TempData["SuccessMessage"] = "Account created Succesfully";
+                    TempData["SuccessMessage"] = "Account created successfully!";
                     return RedirectToAction("Login");
                 }
                 else
@@ -76,35 +71,10 @@ namespace CodeSavvyAsp.Controllers
             return View(student);
         }
 
-        public IActionResult Forgot()
-        {
-            return View();
-        }
-
-        public IActionResult ResendEmail()
-        {
-            return View();
-        }
-        public IActionResult ChooseNewPassword()
-        {
-            return View();
-        }
-        public IActionResult ResetComplete()
-        {
-            return View();
-        }
-        public IActionResult VerifyEmail()
-        {
-            return View();
-        }
-
-
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear(); // Clear session
+            HttpContext.Session.Clear(); // ✅ Session Clear
             return RedirectToAction("Login", "SLogin");
         }
-
-
     }
 }
