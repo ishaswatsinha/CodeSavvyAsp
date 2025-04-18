@@ -5,12 +5,14 @@
     Layout = "~/Views/Shared/_StudentLayout.cshtml";
 }
 
-<h1>Available courses</h1>
-
+<h1>Available Courses</h1>
 
 @foreach (var course in Model)
 {
     <div class="course-card">
+        <!-- ✅ Image Display -->
+        <img src="@course.ImageUrl" alt="Course Image" class="img-fluid" style="max-width: 200px; height: auto;" />
+
         <h3>@course.Title</h3>
         <p>@course.Description</p>
         <p><strong>Duration:</strong> @course.Duration</p>
@@ -18,4 +20,3 @@
         <button>Purchase</button>
     </div>
 }
-

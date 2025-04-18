@@ -94,10 +94,9 @@ namespace CodeSavvyAsp.Controllers
             return View();
         }
 
-        // ✅ POST: Save Course Data
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddCourse(InstructorCourse course)
+        public async Task<IActionResult> AddCourse(InstructorCourse course)
         {
             Console.WriteLine("DEBUG: InstructorId received = " + course.InstructorId);
 
@@ -118,14 +117,17 @@ namespace CodeSavvyAsp.Controllers
 
             Console.WriteLine("DEBUG - Received InstructorId: " + course.InstructorId);
 
-            ModelState.Remove("Instructor"); // remove nav property validation
+            ModelState.Remove("Instructor"); // ✅ Navigation property validation hatao
 
             if (ModelState.IsValid)
             {
                 course.InstructorId = instructor.Id;
 
+                // ✅ URL Directly Store Karna Hai
+                // Bas `course.ImageUrl` ka data store kar do, file handling hatao
+
                 _context.InstructorCourses.Add(course);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
 
                 TempData["SuccessMessage"] = "Course added successfully!";
                 return RedirectToAction("MyCourses");

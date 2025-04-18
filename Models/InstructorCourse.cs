@@ -33,5 +33,8 @@ namespace CodeSavvyAsp.Models
         // Navigation property for the related Instructor
         public Instructor? Instructor { get; set; } // 👈 make it nullable
 
+        public string? ImageUrl { get; set; } // Store image path or URL instead 
+
+
     }
 }

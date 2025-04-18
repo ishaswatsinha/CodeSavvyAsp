@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1t873gf4/ShRQPhhG8zHe58/S+yF06nxQ4l1EynZcyc=",
+  "Hash": "HzsdhwET6LxlCQK0xIEhQ6VcWN2TnI3bj08ICIDO8DE=",
   "Source": "CodeSavvyAsp",
   "BasePath": "_content/CodeSavvyAsp",
   "Mode": "Default",
@@ -309,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Code.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\courses\\360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg",
+      "SourceId": "CodeSavvyAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\",
+      "BasePath": "_content/CodeSavvyAsp",
+      "RelativePath": "Images/courses/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bu5juth9l3",
+      "Integrity": "rZnrOnI9ItOjCuSL9HbY/JybMVlw1XOATeiKhrPfI8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\courses\\360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\cs.png",
@@ -3242,6 +3263,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-3g6kOGlrli/uQoINmloNj+ZNVfQkWor6HcumgleiQcA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/courses/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.bu5juth9l3.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\courses\\360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZnrOnI9ItOjCuSL9HbY/JybMVlw1XOATeiKhrPfI8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:21:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bu5juth9l3"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/courses/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZnrOnI9ItOjCuSL9HbY/JybMVlw1XOATeiKhrPfI8c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/courses/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\AspProject\\wwwroot\\Images\\courses\\360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZnrOnI9ItOjCuSL9HbY/JybMVlw1XOATeiKhrPfI8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 16:21:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZnrOnI9ItOjCuSL9HbY/JybMVlw1XOATeiKhrPfI8c="
         }
       ]
     },
