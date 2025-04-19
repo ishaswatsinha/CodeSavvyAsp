@@ -102,41 +102,120 @@ namespace CodeSavvyAsp.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> EnrolledCourses()
+        public IActionResult EnrolledCourses()
         {
             var email = GetLoggedInEmail();
             if (string.IsNullOrEmpty(email))
                 return RedirectToAction("Login", "SLogin");
 
-            var student = await _context.Students.FirstOrDefaultAsync(s => s.Email == email);
+            var student = _context.Students.FirstOrDefault(s => s.Email == email);
             if (student == null)
-            {
-                TempData["ErrorMessage"] = "Student not found.";
                 return RedirectToAction("Login", "SLogin");
-            }
 
-            var enrolledCourses = await _context.EnrolledCourses
-                                                .Where(e => e.StudentId == student.Id)
-                                                .Include(e => e.Course)
-                                                .ToListAsync(); // ✅ Async version for better performance
+            // ✅ Fetch enrolled courses from Enrollments table
+            var enrolledCourseIds = _context.Enrollments
+                                            .Where(e => e.StudentId == student.Id)
+                                            .Select(e => e.CourseId)
+                                            .ToList();
+
+            var enrolledCourses = _context.InstructorCourses
+                                          .Where(c => enrolledCourseIds.Contains(c.Id))
+                                          .ToList();
 
             return View(enrolledCourses);
         }
+
 
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "SLogin");
         }
-    
 
 
-    public IActionResult BuyNow()
+
+        public IActionResult BuyNow()
 
         {
             var courses = _context.InstructorCourses.ToList();//fetch all course by instructor
             return View(courses);//pass course to view
         }
+
+
+
+
+
+
+
+
+
+
+
+
+        [HttpGet]
+        public IActionResult GetEnrollPage(int courseId) // ✅ New unique method name
+        {
+            var email = GetLoggedInEmail();
+            if (string.IsNullOrEmpty(email))
+                return RedirectToAction("Login", "SLogin");
+
+            var student = _context.Students.AsNoTracking().FirstOrDefault(s => s.Email == email);
+            if (student == null)
+                return RedirectToAction("Login", "SLogin");
+
+            var course = _context.InstructorCourses.AsNoTracking().FirstOrDefault(c => c.Id == courseId);
+            if (course == null)
+                return RedirectToAction("BuyNow");
+
+            return View(course);  // ✅ Show enrollment confirmation page
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult EnrollNow(int courseId) // ✅ Kept for enrollment submission
+        {
+            var email = GetLoggedInEmail();
+            if (string.IsNullOrEmpty(email))
+                return RedirectToAction("Login", "SLogin");
+
+            var student = _context.Students.FirstOrDefault(s => s.Email == email);
+            if (student == null)
+                return RedirectToAction("Login", "SLogin");
+
+            var course = _context.InstructorCourses.FirstOrDefault(c => c.Id == courseId);
+            if (course == null)
+                return RedirectToAction("BuyNow");
+
+            var alreadyEnrolled = _context.Enrollments.Any(e => e.StudentId == student.Id && e.CourseId == courseId);
+            if (alreadyEnrolled)
+            {
+                TempData["ErrorMessage"] = "❌ You are already enrolled in this course!";
+                return RedirectToAction("EnrolledCourses");
+            }
+
+            var enrollment = new Enrollments
+            {
+                StudentId = student.Id,
+                CourseId = courseId
+            };
+
+            try
+            {
+                _context.Enrollments.Add(enrollment);
+                _context.SaveChanges();
+                TempData["SuccessMessage"] = "✅ Successfully enrolled!";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "❌ Enrollment failed! Please try again.";
+                Console.WriteLine($"Error while enrolling: {ex.Message}");
+            }
+
+            return RedirectToAction("EnrolledCourses");
+        }
+
+
+
 
     }
 }

@@ -1,93 +1,46 @@
-﻿@{
-    ViewData["Title"] = "Enrolled Courses";
+﻿@model IEnumerable<CodeSavvyAsp.Models.InstructorCourse>
+
+@{
+    ViewData["Title"] = "My Enrolled Courses";
     Layout = "~/Views/Shared/_StudentLayout.cshtml";
 }
 
-<h2 class="mb-4">Enrolled Courses</h2>
+<h1 class="mb-4 text-center">📚 My Enrolled Courses</h1>
 
-<!-- Filter Tabs -->
-<div class="filter-tabs mb-3">
-    <button class="filter-btn active btn btn-link" data-filter="all">All</button>
-    <button class="filter-btn btn btn-link" data-filter="pending">Pending</button>
-    <button class="filter-btn btn btn-link" data-filter="completed">Completed</button>
-</div>
+@if (Model.Any())
+{
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="@course.ImageUrl" class="card-img-top" alt="Course Image" style="height: 200px; object-fit: cover;" />
 
-<!-- Course List -->
-<div class="course-list bg-light p-3 rounded" id="courseList">
-    <div class="course-item d-flex align-items-center justify-content-between border-bottom py-2" data-status="pending">
-        <img src="https://via.placeholder.com/50" class="me-3 rounded" alt="Course">
-        <div class="course-details flex-grow-1">
-            <b>Web Development</b>
-            <p class="mb-1">Full-stack development course.</p>
-        </div>
-        <span class="me-3">2hr 30 mins</span>
-        <div class="progress-bar me-3" style="width: 150px; height: 8px; background: #ddd; border-radius: 4px;">
-            <div class="progress" style="width: 60%; background: blue; height: 100%; border-radius: 4px;"></div>
-        </div>
-        <div class="dropdown">
-            <span class="options dropdown-toggle" data-bs-toggle="dropdown" role="button">⋮</span>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
-                <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
-            </ul>
-        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@course.Title</h5>
+                        <p class="card-text text-muted">@course.Description</p>
+                        <p><strong>🕒 Duration:</strong> @course.Duration</p>
+                        <p><strong>💰 Price:</strong> ₹@course.Price</p>
+
+                        <!-- ✅ Watch Video Button (Only Visible if Student is Enrolled) -->
+                        @if (!string.IsNullOrEmpty(course.VideoUrl))
+                        {
+                            <a href="@Url.Action("VideoDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100">Watch Video</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Video Available</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
     </div>
-
-    <div class="course-item d-flex align-items-center justify-content-between border-bottom py-2" data-status="pending">
-        <img src="https://via.placeholder.com/50" class="me-3 rounded" alt="Course">
-        <div class="course-details flex-grow-1">
-            <b>Python Programming</b>
-            <p class="mb-1">Master Python from basic to advanced level.</p>
-        </div>
-        <span class="me-3">3hr 10 mins</span>
-        <div class="progress-bar me-3" style="width: 150px; height: 8px; background: #ddd; border-radius: 4px;">
-            <div class="progress" style="width: 20%; background: blue; height: 100%; border-radius: 4px;"></div>
-        </div>
-        <div class="dropdown">
-            <span class="options dropdown-toggle" data-bs-toggle="dropdown" role="button">⋮</span>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item mark-completed" href="#">✅ Mark as Completed</a></li>
-                <li><a class="dropdown-item remove-course" href="#">❌ Remove</a></li>
-            </ul>
-        </div>
+}
+else
+{
+    <p class="text-center text-danger">❌ You have not enrolled in any courses yet.</p>
+    <div class="text-center">
+        <a href="@Url.Action("BuyNow", "SAccountDetails")" class="btn btn-primary">Browse Courses</a>
     </div>
-</div>
-
-@section Scripts {
-    <script>
-        // Filter Courses
-        document.querySelectorAll('.filter-btn').forEach(button => {
-            button.addEventListener('click', function () {
-                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-                this.classList.add('active');
-
-                const filter = this.getAttribute('data-filter');
-                document.querySelectorAll('.course-item').forEach(course => {
-                    const status = course.getAttribute('data-status');
-                    course.style.display = (filter === 'all' || filter === status) ? 'flex' : 'none';
-                });
-            });
-        });
-
-        // Mark as Completed
-        document.querySelectorAll('.mark-completed').forEach(button => {
-            button.addEventListener('click', function (e) {
-                e.preventDefault();
-                const course = this.closest('.course-item');
-                course.setAttribute('data-status', 'completed');
-                const progress = course.querySelector('.progress');
-                progress.style.width = '100%';
-                progress.style.backgroundColor = 'green';
-            });
-        });
-
-        // Remove Course
-        document.querySelectorAll('.remove-course').forEach(button => {
-            button.addEventListener('click', function (e) {
-                e.preventDefault();
-                const course = this.closest('.course-item');
-                course.remove();
-            });
-        });
-    </script>
 }

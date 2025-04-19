@@ -275,6 +275,17 @@ namespace CodeSavvyAsp.Controllers
         }
 
 
+        public IActionResult VideoDetails(int id)
+        {
+            var course = _context.InstructorCourses.FirstOrDefault(c => c.Id == id);
+            if (course == null || string.IsNullOrEmpty(course.VideoUrl))
+            {
+                return NotFound("Video not available.");
+            }
+            return View(course); // ✅ Open Video Details View
+        }
+
+
 
     }
 }

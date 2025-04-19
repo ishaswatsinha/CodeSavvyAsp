@@ -3,8 +3,9 @@
     Layout = "~/Views/Shared/_NavLayout.cshtml";
 }
 
-<div style="background:black; min-height: 100vh; display: flex; justify-content: center; align-items: center; gap: 50px; padding: 50px 0;">
-    <!-- Form -->
+<body style="background:black;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+        <!-- Form -->
     <form asp-action="Login" asp-controller="SLogin" method="post"
           style="width: 400px; background: rgba(0, 8, 20); padding: 20px; border-radius: 10px; border: 1px solid #D52D2D; color: white; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);">
 
@@ -70,3 +71,4 @@
         window.location.href = "@Url.Action("ILogin", "InstructorLogin")";
     }
 </script>
+<</body>/>

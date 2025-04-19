@@ -1,0 +1,15 @@
+﻿@model CodeSavvyAsp.Models.InstructorCourse
+
+<h1>@Model.Title - Course Video</h1>
+
+@if (!string.IsNullOrEmpty(Model.VideoUrl))
+{
+    <!-- ✅ Convert YouTube Link to Embed Format -->
+    var embedUrl = Model.VideoUrl.Replace("watch?v=", "embed/") + "?autoplay=1";
+
+    <iframe width="100%" height="515" src="@embedUrl" frameborder="0" allowfullscreen></iframe>
+}
+else
+{
+    <p>Video not available for this course.</p>
+}

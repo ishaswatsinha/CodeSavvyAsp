@@ -1,22 +1,57 @@
 ﻿@model IEnumerable<CodeSavvyAsp.Models.InstructorCourse>
 
 @{
-    ViewData["Title"] = "BuyNow";
+    ViewData["Title"] = "Buy Courses";
     Layout = "~/Views/Shared/_StudentLayout.cshtml";
 }
 
-<h1>Available Courses</h1>
+<h1 class="mb-4 text-center">🎓 Available Courses</h1>
 
-@foreach (var course in Model)
+@if (Model.Any())
 {
-    <div class="course-card">
-        <!-- ✅ Image Display -->
-        <img src="@course.ImageUrl" alt="Course Image" class="img-fluid" style="max-width: 200px; height: auto;" />
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="@course.ImageUrl" class="card-img-top" alt="Course Image" style="height: 200px; object-fit: cover;" />
 
-        <h3>@course.Title</h3>
-        <p>@course.Description</p>
-        <p><strong>Duration:</strong> @course.Duration</p>
-        <p><strong>Price:</strong> ₹@course.Price</p>
-        <button>Purchase</button>
+                    <div class="card-body">
+                        <h5 class="card-title">@course.Title</h5>
+                        <p class="card-text text-muted">@course.Description</p>
+                        <p><strong>🕒 Duration:</strong> @course.Duration</p>
+                        <p><strong>💰 Price:</strong> ₹@course.Price</p>
+
+                        <!-- ✅ View Details Button -->
+                        @if (!string.IsNullOrEmpty(course.VideoUrl))
+                        {
+                            <a href="@Url.Action("VideoDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100 mb-2">View Details</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Video Available</span>
+                        }
+
+                        <!-- ✅ Check if Student is Already Enrolled -->
+                        @if (ViewBag.EnrolledCourseIds != null && ViewBag.EnrolledCourseIds.Contains(course.Id))
+                        {
+                            <button class="btn btn-secondary w-100" disabled>Already Enrolled</button>
+                        }
+                        else
+                        {
+                            <form action="@Url.Action("EnrollNow", "SAccountDetails")" method="post">
+                                @Html.AntiForgeryToken()  <!-- ✅ CSRF Protection Added -->
+                                <input type="hidden" name="courseId" value="@course.Id" />
+                                <button type="submit" class="btn btn-success w-100">Enroll Now</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
     </div>
+}
+else
+{
+    <p class="text-center text-danger">❌ No courses available right now.</p>
 }

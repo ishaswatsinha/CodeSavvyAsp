@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Purchase Successful!";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1 class="text-success">✅ Purchase Successful!</h1>
+<p>Thank you for purchasing <strong>@ViewData["CourseTitle"]</strong>. You can now access your enrolled courses.</p>
+<a href="@Url.Action("EnrolledCourses", "SAcountDetails")" class="btn btn-primary">Go to My Courses</a>
+

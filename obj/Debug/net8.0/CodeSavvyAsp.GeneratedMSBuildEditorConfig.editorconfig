@@ -92,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxNeUNvdXJzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL/Desktop/AspProject/Views/Instructor/VideoDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxWaWRlb0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/BuyNow.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEJ1eU5vdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -104,8 +108,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEVucm9sbGVkQ291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/EnrollNow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEVucm9sbE5vdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/GetEnrollPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEdldEVucm9sbFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXFBheW1lbnRTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/Settings.cshtml]

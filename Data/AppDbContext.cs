@@ -21,6 +21,8 @@ namespace CodeSavvyAsp.Data
         // ✅ Courses Table (for referencing in EnrolledCourses)
         public DbSet<Course> Courses { get; set; }
 
+        public DbSet<Enrollments> Enrollments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

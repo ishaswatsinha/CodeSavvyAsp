@@ -35,6 +35,9 @@ namespace CodeSavvyAsp.Models
 
         public string? ImageUrl { get; set; } // Store image path or URL instead 
 
+        public string? VideoUrl { get; set; } // Store course video URL
+
+
 
     }
 }
