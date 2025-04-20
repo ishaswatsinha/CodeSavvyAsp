@@ -71,7 +71,7 @@
             <hr style="border-color: #d4af37;" />
             <ul class="nav flex-column">
                 <li class="nav-item mb-2">
-                    <a class="nav-link active" asp-controller="SAccountDetails" asp-action="Index">
+                    <a class="nav-link " asp-controller="SAccountDetails" asp-action="Index">
                         <i class="fas fa-user"></i> Account Details
                     </a>
                 </li>
@@ -106,6 +106,36 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var links = document.querySelectorAll(".sidebar .nav-link");
+
+            links.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    // Remove active class from all links
+                    links.forEach(l => l.classList.remove("active"));
+
+                    // Add active class to clicked link
+                    this.classList.add("active");
+
+                    // Store active link in localStorage using 'href'
+                    localStorage.setItem("activeSidebarLink", this.href);
+                });
+            });
+
+            // Restore active link after page reload
+            var savedActive = localStorage.getItem("activeSidebarLink");
+            if (savedActive) {
+                links.forEach(link => {
+                    if (link.href === savedActive) {
+                        link.classList.add("active");
+                    }
+                });
+            }
+        });
+    </script>
+
+
     @RenderSection("Scripts", required: false)
 
 </body>
