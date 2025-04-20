@@ -25,7 +25,7 @@
                         <!-- ✅ View Details Button -->
                         @if (!string.IsNullOrEmpty(course.VideoUrl))
                         {
-                            <a href="@Url.Action("VideoDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100 mb-2">View Details</a>
+                            <a href="@Url.Action("CourseDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100 mb-2">View Details</a>
                         }
                         else
                         {

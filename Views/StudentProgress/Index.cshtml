@@ -1,0 +1,23 @@
+﻿@model List<StudentProgress>
+
+<h2>📚 My Course Progress</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>📖 Course</th>
+            <th>✅ Completion Status</th>
+            <th>🕒 Completed On</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var progress in Model)
+        {
+            <tr>
+                <td>@progress.Course.Title</td>
+                <td>@(progress.IsCompleted ? "✔ Completed" : "❌ In Progress")</td>
+                <td>@(progress.IsCompleted ? progress.CompletedOn?.ToString("dd MMM yyyy") : "-")</td>
+            </tr>
+        }
+    </tbody>
+</table>

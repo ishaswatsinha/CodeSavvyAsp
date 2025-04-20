@@ -22,15 +22,29 @@
                         <p><strong>🕒 Duration:</strong> @course.Duration</p>
                         <p><strong>💰 Price:</strong> ₹@course.Price</p>
 
-                        <!-- ✅ Watch Video Button (Only Visible if Student is Enrolled) -->
+                        <!-- ✅ Watch Video Button -->
                         @if (!string.IsNullOrEmpty(course.VideoUrl))
                         {
-                            <a href="@Url.Action("VideoDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100">Watch Video</a>
+                            <a href="@Url.Action("VideoDetails", "Instructor", new { id = course.Id })" class="btn btn-info w-100">🎥 Watch Video</a>
                         }
                         else
                         {
                             <span class="text-muted">No Video Available</span>
                         }
+
+                        @* <form action="@Url.Action("MarkAsComplete", "StudentProgress")" method="post"> *@
+                        @*     @Html.AntiForgeryToken() *@
+                        @*     <input type="hidden" name="courseId" value="@course.Id" /> *@
+                        @*     <button type="submit" class="btn btn-success w-100 mt-2">✅ Mark as Complete</button> *@
+                        @* </form> *@
+
+
+                        <!-- ❌ Delete Course Button -->
+                        <form action="@Url.Action("DeleteEnrollment", "SAccountDetails")" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="courseId" value="@course.Id" />
+                            <button type="submit" class="btn btn-danger w-100 mt-2">🗑 Remove Course</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -41,6 +55,6 @@ else
 {
     <p class="text-center text-danger">❌ You have not enrolled in any courses yet.</p>
     <div class="text-center">
-        <a href="@Url.Action("BuyNow", "SAccountDetails")" class="btn btn-primary">Browse Courses</a>
+        <a href="@Url.Action("BuyNow", "SAccountDetails")" class="btn btn-primary">💻 Browse Courses</a>
     </div>
 }

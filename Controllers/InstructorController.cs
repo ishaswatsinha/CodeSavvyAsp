@@ -287,5 +287,19 @@ namespace CodeSavvyAsp.Controllers
 
 
 
+
+        public IActionResult CourseDetails(int id)
+        {
+            var course = _context.InstructorCourses.FirstOrDefault(c => c.Id == id);
+            if (course == null)
+            {
+                TempData["ErrorMessage"] = "❌ Course not found!";
+                return RedirectToAction("BuyNow");
+            }
+
+            return View(course);
+        }
+
+
     }
 }

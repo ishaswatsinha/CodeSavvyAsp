@@ -1,0 +1,12 @@
+﻿@model List<StudentProgress>
+
+<h2>🎉 Completed Courses</h2>
+
+<ul class="list-group">
+    @foreach (var progress in Model.Where(p => p.IsCompleted))
+    {
+        <li class="list-group-item">
+            <strong>@progress.Course.Title</strong> – Completed on @progress.CompletedOn?.ToString("dd MMM yyyy")
+        </li>
+    }
+</ul>

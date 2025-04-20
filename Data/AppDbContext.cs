@@ -23,6 +23,8 @@ namespace CodeSavvyAsp.Data
 
         public DbSet<Enrollments> Enrollments { get; set; }
 
+        public DbSet<StudentProgress> StudentProgress { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

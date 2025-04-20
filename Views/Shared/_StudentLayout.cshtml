@@ -16,29 +16,49 @@
             padding: 0;
             background-color: #f9f6e6;
             color: black;
+            overflow-x: hidden; /* ✅ Prevent unwanted horizontal scroll */
         }
 
         .sidebar {
             width: 250px;
             background-color: #f9f6e6;
+            height: 100vh;
+            position: fixed;
+            left: 0; /* ✅ Ensures no unwanted margins */
+            top: 0;
+            padding: 20px;
+            overflow-y: auto;
+            box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* ✅ Makes sure sidebar stays on top */
         }
 
             .sidebar h3 {
                 color: #333;
+                font-weight: bold;
             }
 
             .sidebar .nav-link {
                 color: #333;
                 font-weight: 500;
+                padding: 10px;
+                display: block;
+                border-radius: 5px;
             }
 
                 .sidebar .nav-link:hover {
                     background-color: #f7e39c;
-                    border-radius: 5px;
+                }
+
+                .sidebar .nav-link.active {
+                    background-color: gold;
                 }
 
         .main-content {
             background-color: #fff;
+            margin-left: 250px; /* ✅ Ensures content starts where sidebar ends */
+            padding: 20px;
+            min-height: 100vh;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -51,7 +71,7 @@
             <hr style="border-color: #d4af37;" />
             <ul class="nav flex-column">
                 <li class="nav-item mb-2">
-                    <a class="nav-link" asp-controller="SAccountDetails" asp-action="Index">
+                    <a class="nav-link active" asp-controller="SAccountDetails" asp-action="Index">
                         <i class="fas fa-user"></i> Account Details
                     </a>
                 </li>
@@ -62,10 +82,9 @@
                 </li>
                 <li class="nav-item mb-2">
                     <a class="nav-link" asp-controller="SAccountDetails" asp-action="BuyNow">
-                        <i class="fas fa-book"></i> Buy Now
+                        <i class="fas fa-shopping-cart"></i> Buy Now
                     </a>
                 </li>
-               
                 <li class="nav-item mb-2">
                     <a class="nav-link" asp-controller="SAccountDetails" asp-action="Index">
                         <i class="fas fa-cog"></i> Settings

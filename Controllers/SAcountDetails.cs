@@ -217,5 +217,44 @@ namespace CodeSavvyAsp.Controllers
 
 
 
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteEnrollment(int courseId)
+        {
+            var email = GetLoggedInEmail();
+            var student = _context.Students.FirstOrDefault(s => s.Email == email);
+
+            if (student == null)
+                return RedirectToAction("Login", "SLogin");
+
+            var enrollment = _context.Enrollments.FirstOrDefault(e => e.StudentId == student.Id && e.CourseId == courseId);
+            if (enrollment == null)
+            {
+                TempData["ErrorMessage"] = "❌ Enrollment not found!";
+                return RedirectToAction("EnrolledCourses");
+            }
+
+            _context.Enrollments.Remove(enrollment);
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "✅ Course enrollment deleted successfully!";
+            return RedirectToAction("EnrolledCourses");
+        }
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
     }
 }

@@ -76,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBZGRDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL/Desktop/AspProject/Views/Instructor/CourseDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxDb3Vyc2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL/Desktop/AspProject/Views/Instructor/DeleteCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxEZWxldGVDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/BuyNow.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXEJ1eU5vdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/DeleteEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0FjY291bnREZXRhaWxzXERlbGV0ZUVucm9sbG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/SAccountDetails/Edit.cshtml]
@@ -158,6 +166,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL/Desktop/AspProject/Views/SLogin/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0xvZ2luXFNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/StudentProgress/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2dyZXNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/AspProject/Views/StudentProgress/MyProgress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2dyZXNzXE15UHJvZ3Jlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/AspProject/Views/_ViewImports.cshtml]
